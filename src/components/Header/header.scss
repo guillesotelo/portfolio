@@ -1,0 +1,9 @@
+.header {
+    &__container {
+        // border: 1px solid lightblue;
+
+        &>button {
+            margin: 1rem;
+        }
+    }
+}

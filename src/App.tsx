@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { Routes, Route, useLocation, BrowserRouter } from "react-router-dom";
+import { Switch, Route, useLocation, useHistory } from "react-router-dom";
 import Home from './pages/Home/Home'
 import './scss/app.scss'
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="*" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <Switch>
+      <Route exact path='/'>
+        <Header />
+        <Home />
+      </Route>
+    </Switch>
   );
 }
 

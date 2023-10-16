@@ -1,0 +1,20 @@
+.home {
+    &__container {
+        // border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    &__experiences {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        width: 60%;
+        margin: 2rem;
+    }
+}
