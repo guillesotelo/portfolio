@@ -26,9 +26,9 @@ export default function ({ }: Props): JSX.Element {
           subtitle=''
           description="Mobile and desktop app for finances control, for home and small businesses."
           image=''
-          iframe='https://ctrlshift-app.vercel.app/splash'
+          iframe='https://ctrlshift-app.vercel.app/'
           repo='https://github.com/guillesotelo/ctrlshift-app'
-          project='https://ctrlshift-app.vercel.app/splash'
+          project='https://ctrlshift-app.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='.1s'
@@ -118,7 +118,7 @@ export default function ({ }: Props): JSX.Element {
           delay='.4s'
         />
         <ExperienceCard
-          title='ML Self-Driving'
+          title='Angelita'
           subtitle='Angela Sanguino'
           description="Landing and web app for psichology consulting and sessions."
           image=''
@@ -182,9 +182,9 @@ export default function ({ }: Props): JSX.Element {
           subtitle=''
           description="Appointment Calendar App for a hairdressing, made with pure JavaScript, React and Mongo."
           image=''
-          iframe='https://schedy-app.herokuapp.com'
+          iframe='https://schedy.vercel.app/'
           repo='https://github.com/guillesotelo/schedy'
-          project='https://schedy-app.herokuapp.com'
+          project='https://schedy.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='.4s'

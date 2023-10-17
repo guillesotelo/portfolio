@@ -1,9 +1,26 @@
 .header {
     &__container {
-        // border: 1px solid lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
         &>button {
             margin: 1rem;
         }
     }
+}
+
+@media only screen and (max-width: 640px) {
+    .header {
+        &__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+    
+            &>button {
+                margin: 1rem;
+            }
+        }
+    }
+    
 }

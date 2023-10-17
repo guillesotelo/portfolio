@@ -1,7 +1,7 @@
 .button {
     &__default {
         font-size: .8vw;
-        background-color: lightgray;
+        background-color: #c1b7e0;
         width: fit-content;
         padding: .3vw;
         border-radius: .3vw;
@@ -12,9 +12,9 @@
 
         &:hover {
             filter: brightness(110%);
-            border: 1px solid lightgray;
+            border: 1px solid #c1b7e0;
             background-color: transparent;
-            color: lightgray;
+            color: #c1b7e0;
             transition: .4s;
         }
 
@@ -28,8 +28,8 @@
 @media only screen and (max-width: 640px) {
     .button {
         &__default {
-            font-size: 5vw;
-            background-color: lightgray;
+            font-size: 4vw;
+            background-color: #c1b7e0;
             width: fit-content;
             padding: 3vw;
             border-radius: 1.5vw;
