@@ -23,10 +23,10 @@
 
         &-svg {
             height: 2.5rem;
-            transition: .3s;
+            transition: filter .2s;
 
             &:hover {
-                opacity: .6;
+                filter: invert(50%) sepia(50%) saturate(2088%) hue-rotate(211deg) brightness(67%) contrast(80%);
             }
         }
     }

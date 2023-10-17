@@ -13,3 +13,14 @@ body {
 iframe {
   overflow: hidden;
 }
+
+a {
+  transition: .2s;
+  color: #c1b7e0;
+}
+
+a:hover {
+  color: #9784d8;
+  filter: none;
+  outline: none;
+}

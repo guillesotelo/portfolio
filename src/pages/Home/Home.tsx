@@ -8,6 +8,14 @@ export default function ({ }: Props): JSX.Element {
 
   return (
     <div className="home__container">
+      <div className="home__text">
+        <h1 className="home__title">Welcome to my tech journey!</h1>
+        <p className="home__intro">
+          Hey there! I'm Guille, a software developer on a mission to make tech awesome. 
+          <br/>
+          Each card below tells a unique story of my digital adventures.
+        </p>
+      </div>
       <div className="home__experiences">
         <ExperienceCard
           title='CV Maker'
@@ -79,7 +87,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://code-compiler-v2.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.5s'
         />
         <ExperienceCard
           title='Flying Game'
@@ -91,7 +99,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.6s'
         />
         <ExperienceCard
           title='HTML to MD Converter'
@@ -103,7 +111,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://github.com/guillesotelo/html-to-md-converter'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.7s'
         />
         <ExperienceCard
           title='ML Self-Driving'
@@ -115,7 +123,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://ml-self-driving.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.8s'
         />
         <ExperienceCard
           title='Angelita'
@@ -127,7 +135,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://angelita.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.9s'
         />
         <ExperienceCard
           title='Space Punks'
@@ -139,7 +147,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.10s'
         />
         <ExperienceCard
           title='Canvas Shooting'
@@ -151,7 +159,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://canvas-shooting.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='1.1s'
         />
         <ExperienceCard
           title='Boxy'
@@ -163,7 +171,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://threejs-boxy.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='1.2s'
         />
         <ExperienceCard
           title='Magis Hogar Home'
@@ -175,7 +183,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='1.3s'
         />
         <ExperienceCard
           title='Schedy'
@@ -187,9 +195,10 @@ export default function ({ }: Props): JSX.Element {
           project='https://schedy.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='1.4s'
         />
       </div>
+      <p className="home__copyright">Guillermo Sotelo © 2023</p>
     </div>
   )
 }
