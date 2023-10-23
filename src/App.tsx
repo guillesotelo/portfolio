@@ -5,6 +5,7 @@ import './scss/app.scss'
 import Header from './components/Header/Header';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
+import Clients from './pages/Clients/Clients';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <Route exact path='/about'>
         <Header />
         <About />
+      </Route>
+      <Route exact path='/clients'>
+        <Header />
+        <Clients />
       </Route>
       <Route>
         <Header />

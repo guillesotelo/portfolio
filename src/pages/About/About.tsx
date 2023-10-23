@@ -9,7 +9,7 @@ export default function About({ }: Props) {
   return (
     <div className="about__container">
       <div className="about__col">
-        <h1 className="about__title">A little of me</h1>
+        <h1 className="about__title">A bit of me</h1>
         {isMobile ? <img src={Profile} alt="Linkedin" className="about__image" /> : ''}
         <p className="about__text">
           Hey there! I'm Guille, and I'm thrilled you stopped by my corner of the internet.

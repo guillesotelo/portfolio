@@ -7,7 +7,7 @@ type Props = {}
 export default function Header({ }: Props) {
   const [page, setPage] = useState('')
   const history = useHistory()
-  
+
   useEffect(() => {
     setPage(history.location.pathname)
   }, [window.location.href])
@@ -21,6 +21,15 @@ export default function Header({ }: Props) {
         textColor='#c1b7e0'
         style={{
           border: page === '/' ? '1px solid #c1b7e0' : ''
+        }}
+      />
+      <Button
+        label='Clients'
+        handleClick={() => history.push('/clients')}
+        bgColor='transparent'
+        textColor='#c1b7e0'
+        style={{
+          border: page === '/clients' ? '1px solid #c1b7e0' : ''
         }}
       />
       <Button
