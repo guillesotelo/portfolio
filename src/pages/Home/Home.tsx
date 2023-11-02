@@ -61,6 +61,7 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://github.com/guillesotelo/down-detector'
           repo='https://github.com/guillesotelo/down-detector'
           project='https://github.com/guillesotelo/down-detector'
+          img='https://i.postimg.cc/B6SFBg8N/dd-logo.png'
           hover={hover}
           setHover={setHover}
           delay='.3s'
@@ -109,6 +110,7 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://github.com/guillesotelo/html-to-md-converter'
           repo='https://github.com/guillesotelo/html-to-md-converter'
           project='https://github.com/guillesotelo/html-to-md-converter'
+          img='https://stiltsoft.com/wp-content/uploads/2023/04/page-history.png'
           hover={hover}
           setHover={setHover}
           delay='.7s'

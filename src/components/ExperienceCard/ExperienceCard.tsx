@@ -12,6 +12,7 @@ type Props = {
   hover: string
   setHover: (s: string) => void
   delay?: string
+  img?: string
 }
 
 export default function ExperienceCard(props: Props) {
@@ -27,7 +28,8 @@ export default function ExperienceCard(props: Props) {
     project,
     hover,
     setHover,
-    delay
+    delay,
+    img
   } = props
 
   const goToRepo = () => {
@@ -51,16 +53,16 @@ export default function ExperienceCard(props: Props) {
       onMouseLeave={() => setHover('')}
       style={{
         filter: hover ? hover === title ? 'brightness(1)' : 'brightness(.3)' : 'brightness(1)',
-        paddingRight: hover ? hover === title  && !isMobile ? '2rem' : '0' : '0',
+        paddingRight: hover ? hover === title && !isMobile ? '2rem' : '0' : '0',
         animationDelay: `${delay || '0'}`,
         zIndex: hover ? hover === title ? '3' : '1' : '1',
       }}
     >
       <div className="experience-card__container">
         <div className="experience-card__text">
-        <h2 className="experience-card__title">{title}</h2>
-        <h3 className="experience-card__subtitle">{subtitle}</h3>
-        <p className="experience-card__description">{description}</p>
+          <h2 className="experience-card__title">{title}</h2>
+          <h3 className="experience-card__subtitle">{subtitle}</h3>
+          <p className="experience-card__description">{description}</p>
         </div>
         {image ? <img src={image} alt="Experience Image" className="experience-card__image" /> : ''}
         <div className="experience-card__btns">
@@ -75,7 +77,8 @@ export default function ExperienceCard(props: Props) {
         </div>
       </div>
       <div className="experience-card__iframe-container">
-        <iframe src={iframe} className="experience-card__iframe"></iframe>
+        {img ? <img src={img} alt="Experience Image" className="experience-card__image" />
+          : <iframe src={iframe} className="experience-card__iframe"></iframe>}
       </div>
     </div>
   )

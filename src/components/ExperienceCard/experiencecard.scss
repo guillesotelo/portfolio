@@ -75,6 +75,20 @@
         justify-content: space-between;
     }
 
+    &__image {
+        border-radius: 1rem;
+        border: none;
+        overflow: hidden;
+        scrollbar-width: 0;
+        pointer-events: none;
+        width: 64vw;
+        max-height: 38vw;
+        transform: scale(0.48);
+        transform-origin: 0 0;
+        background-color: white;
+        transition: .3s;
+    }
+
     &__iframe {
         // border: 3px solid gray;
         border-radius: 1rem;
@@ -101,7 +115,11 @@
             // cursor: pointer;
 
             &:hover>.experience-card__iframe {
-                transform: scale(0.51);
+                display: none;
+            }
+
+            &:hover>.experience-card__image {
+                display: none;
             }
         }
 
@@ -113,6 +131,7 @@
         &__wrapper {
             display: flex;
             flex-direction: column;
+
             &:hover>.experience-card__container {
                 min-height: 60vw;
                 height: fit-content;
