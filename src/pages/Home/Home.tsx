@@ -21,7 +21,7 @@ export default function ({ }: Props): JSX.Element {
           title='CV Maker'
           subtitle='Sigma Connectivity Engineering'
           description="A platform to build your entire resume with a bunch of built-in editing tools. For manager roles, there's also modules to manage employee and client data with activity and statistics modules."
-          image=''
+          cover=''
           iframe='https://sigma-cvmaker.vercel.app/'
           repo='https://github.com/guillesotelo/sigma-cvmaker'
           project='https://sigma-cvmaker.vercel.app/'
@@ -33,7 +33,7 @@ export default function ({ }: Props): JSX.Element {
           title='CtrlShift'
           subtitle=''
           description="Mobile and desktop app for finances control, for home and small businesses."
-          image=''
+          cover=''
           iframe='https://ctrlshift-app.vercel.app/'
           repo='https://github.com/guillesotelo/ctrlshift-app'
           project='https://ctrlshift-app.vercel.app/'
@@ -45,10 +45,11 @@ export default function ({ }: Props): JSX.Element {
           title='E.A.S.Y Notes'
           subtitle=''
           description="A simple mobile app to control and take notes on baby's activity. Inspired on the book 'Secrets of the Baby Whisperer'"
-          image=''
+          cover=''
           iframe='https://easybaby-notes.vercel.app/'
           repo='https://github.com/guillesotelo/easybaby-notes'
           project='https://easybaby-notes.vercel.app/'
+          img='https://i.postimg.cc/YSSStyrL/smartmockups-loidxluy.jpg'
           hover={hover}
           setHover={setHover}
           delay='.2s'
@@ -57,11 +58,11 @@ export default function ({ }: Props): JSX.Element {
           title='DownDetector'
           subtitle='Volvo Cars'
           description="Customizable API endpoint checker with admin panel."
-          image=''
+          cover=''
           iframe='https://github.com/guillesotelo/down-detector'
           repo='https://github.com/guillesotelo/down-detector'
           project='https://github.com/guillesotelo/down-detector'
-          img='https://i.postimg.cc/B6SFBg8N/dd-logo.png'
+          img='https://i.postimg.cc/VN0SPVLs/Screenshot-from-2023-11-03-09-55-48.png'
           hover={hover}
           setHover={setHover}
           delay='.3s'
@@ -70,7 +71,7 @@ export default function ({ }: Props): JSX.Element {
           title='by Dany Garcia'
           subtitle='Daniela Garcia'
           description="Creative, Aware, Inspire, is the slogan for this fantastic blog written by Daniela. It represents a landing page for the artist, her blog and a platform for her unique business called 'Bespoken'."
-          image=''
+          cover=''
           iframe='https://bydanygarcia.vercel.app/'
           repo='https://github.com/guillesotelo/bydanygarcia'
           project='https://bydanygarcia.vercel.app/'
@@ -82,7 +83,7 @@ export default function ({ }: Props): JSX.Element {
           title='Code Compiler'
           subtitle=''
           description="Write, compile and run your code with this both simple and complete editor capable of work with 40+ languages."
-          image=''
+          cover=''
           iframe='https://code-compiler-v2.vercel.app/'
           repo='https://github.com/guillesotelo/code-compiler'
           project='https://code-compiler-v2.vercel.app/'
@@ -94,7 +95,7 @@ export default function ({ }: Props): JSX.Element {
           title='Flying Game'
           subtitle=''
           description="Test your ability to fly an aeroplane with this simulation made with Three.js."
-          image=''
+          cover=''
           iframe='https://flying-game.vercel.app'
           repo='https://github.com/guillesotelo/flying-game'
           project='https://flying-game.vercel.app'
@@ -106,7 +107,7 @@ export default function ({ }: Props): JSX.Element {
           title='HTML to MD Converter'
           subtitle=''
           description="With a pretty straightforward title, this Python application is made to run in a backend server and fetch Confluence pages to convert them into Markdown."
-          image=''
+          cover=''
           iframe='https://github.com/guillesotelo/html-to-md-converter'
           repo='https://github.com/guillesotelo/html-to-md-converter'
           project='https://github.com/guillesotelo/html-to-md-converter'
@@ -119,7 +120,7 @@ export default function ({ }: Props): JSX.Element {
           title='ML Self-Driving'
           subtitle=''
           description="This is a self-driving car simulation powered by machine learning and implemented in JavaScript. The project focuses on training an AI model to control a car and navigate it safely through an environment with other cars, avoiding collisions."
-          image=''
+          cover=''
           iframe='https://ml-self-driving.vercel.app/'
           repo='https://github.com/guillesotelo/ml-self-driving'
           project='https://ml-self-driving.vercel.app/'
@@ -131,7 +132,7 @@ export default function ({ }: Props): JSX.Element {
           title='Angelita'
           subtitle='Angela Sanguino'
           description="Landing and web app for psichology consulting and sessions."
-          image=''
+          cover=''
           iframe='https://angelita.vercel.app/'
           repo='https://github.com/guillesotelo/angelita'
           project='https://angelita.vercel.app/'
@@ -143,61 +144,75 @@ export default function ({ }: Props): JSX.Element {
           title='Space Punks'
           subtitle=''
           description="An infinite fight against enemy space ships, inspired in the great Space Invaders from Nintendo. It is made with pure JavaScript and the use of canva."
-          image=''
+          cover=''
           iframe='https://canvas-space-punks.vercel.app/'
           repo='https://github.com/guillesotelo/space-punks'
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.10s'
+          delay='1s'
         />
         <ExperienceCard
           title='Canvas Shooting'
           subtitle=''
           description="An intense shooting game made with canva and Vanilla JavaScript."
-          image=''
+          cover=''
           iframe='https://canvas-shooting.vercel.app/'
           repo='https://github.com/guillesotelo/canvas-shooting'
           project='https://canvas-shooting.vercel.app/'
+          img='https://i.postimg.cc/nhKtNKqj/Screenshot-from-2023-11-03-10-07-13.png'
           hover={hover}
           setHover={setHover}
           delay='1.1s'
         />
-        <ExperienceCard
-          title='Boxy'
+         <ExperienceCard
+          title='DeeJS'
           subtitle=''
-          description="Fun and simple game developed using Three.js"
-          image=''
-          iframe='https://threejs-boxy.vercel.app/'
+          description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control."
+          cover=''
+          iframe='https://deejs.vercel.app/'
           repo='https://github.com/guillesotelo/threejs-boxy'
-          project='https://threejs-boxy.vercel.app/'
+          project='https://deejs.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='1.2s'
         />
         <ExperienceCard
-          title='Magis Hogar Home'
-          subtitle='Magis Hogar'
-          description="A landing page and client platform for the everyday real state investments."
-          image=''
-          iframe='https://magishogar-public.vercel.app/'
-          repo='https://github.com/guillesotelo/magishogar'
-          project='https://magishogar-public.vercel.app/'
+          title='Boxy'
+          subtitle=''
+          description="Fun and simple game developed using Three.js"
+          cover=''
+          iframe='https://threejs-boxy.vercel.app/'
+          repo='https://github.com/guillesotelo/threejs-boxy'
+          project='https://threejs-boxy.vercel.app/'
+          img='https://i.postimg.cc/bNhGngYd/Screenshot-from-2023-11-03-10-08-42.png'
           hover={hover}
           setHover={setHover}
           delay='1.3s'
         />
         <ExperienceCard
+          title='Magis Hogar Home'
+          subtitle='Magis Hogar'
+          description="A landing page and client platform for the everyday real state investments."
+          cover=''
+          iframe='https://magishogar-public.vercel.app/'
+          repo='https://github.com/guillesotelo/magishogar'
+          project='https://magishogar-public.vercel.app/'
+          hover={hover}
+          setHover={setHover}
+          delay='1.4s'
+        />
+        <ExperienceCard
           title='Schedy'
           subtitle=''
           description="Appointment Calendar App for a hairdressing, made with pure JavaScript, React and Mongo."
-          image=''
+          cover=''
           iframe='https://schedy.vercel.app/'
           repo='https://github.com/guillesotelo/schedy'
           project='https://schedy.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
         />
       </div>
       <p className="home__copyright">Guillermo Sotelo © 2023</p>

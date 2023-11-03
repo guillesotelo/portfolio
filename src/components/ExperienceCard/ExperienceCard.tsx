@@ -5,7 +5,7 @@ type Props = {
   title: string
   subtitle: string
   description: string
-  image: string
+  cover: string
   iframe: string
   repo: string
   project: string
@@ -22,7 +22,7 @@ export default function ExperienceCard(props: Props) {
     title,
     subtitle,
     description,
-    image,
+    cover,
     iframe,
     repo,
     project,
@@ -64,7 +64,7 @@ export default function ExperienceCard(props: Props) {
           <h3 className="experience-card__subtitle">{subtitle}</h3>
           <p className="experience-card__description">{description}</p>
         </div>
-        {image ? <img src={image} alt="Experience Image" className="experience-card__image" /> : ''}
+        {cover ? <img src={cover} alt="Experience Image" className="experience-card__image" /> : ''}
         <div className="experience-card__btns">
           <Button
             label='Visit project'

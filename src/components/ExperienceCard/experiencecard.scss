@@ -87,6 +87,7 @@
         transform-origin: 0 0;
         background-color: white;
         transition: .3s;
+        object-fit: cover;
     }
 
     &__iframe {
