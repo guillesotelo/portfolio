@@ -9,14 +9,22 @@
 
     &__title {
         margin-top: 0;
+        opacity: 0;
+        animation: fade-in .5s ease-in forwards;
     }
 
     &__text {
         margin-bottom: 2rem;
+        text-align: justify;
+        opacity: 0;
+        animation: fade-in .5s ease-in forwards;
     }
 
     &__image {
         height: 20vw;
+        opacity: 0;
+        animation: fade 1s ease-in forwards;
+        animation-delay: .5s;
         // position: absolute;
         // right: -40%;
         filter: grayscale(100%);

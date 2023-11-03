@@ -17,41 +17,46 @@ type Props = {}
 export default function Clients({ }: Props) {
     return (
         <div className="clients__container">
+            <div className="home__text">
+                <p className="home__intro" style={{ margin: '2rem 0 0 0' }}>
+                    Here are some of the projects and clients I had the oportunity to work with:
+                </p>
+            </div>
             <div className="clients__logos">
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0s' }}>
                     <a href='https://www.volvocars.com/se/' target='_blank'><img src={VolvoCars} alt="Volvo Cars" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.1s' }}>
                     <a href='https://www.sigmaconnectivity.com/' target='_blank'>  <img src={SigmaConn} alt="Sigma Connectivity" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.2s' }}>
                     <a href='https://www.sigma.se/sv/contact/sigma-connectivity-engineering/' target='_blank'>   <img src={SigmaConnE} alt="Sigma Connectivity Engineering" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.3s' }}>
                     <a href='https://www.selessux.com/twigoh' target='_blank'> <img src={Twigoh} alt="Twigoh" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.4s' }}>
                     <a href='https://interval.ar/' target='_blank'> <img src={Interval} alt="Magis Hogar" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.5s' }}>
                     <a href='' target='_blank'> <img src={MagisHogar} alt="Magis Hogar" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.6s' }}>
                     <a href='' target='_blank'> <img src={GerardoLosasso} alt="Gerardo Losasso" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.7s' }}>
                     <a href='https://enamoradadelmuro.myshopify.com/' target='_blank'> <img src={EnamoradaDelMuro} alt="Enamorada del Muro" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.8s' }}>
                     <a href='https://www.conexiogroup.com/' target='_blank'> <img src={Conexio} alt="Conexio" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '.9s' }}>
                     <a href='https://bydanygarcia.vercel.app/' target='_blank'>  <img src={ByDanyGarcia} alt="by Dany Garcia" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1s' }}>
                     <a href='https://archontech.com/' target='_blank'> <img src={ArchonTechStrategies} alt="Archon Tech Strategies" className="clients__logo" /></a>
                 </div>
-                <div className="clients__logo-wrapper">
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1.1s' }}>
                     <a href='https://angelita.vercel.app/' target='_blank'> <img src={Angelita} alt="Angelita" className="clients__logo" /></a>
                 </div>
             </div>

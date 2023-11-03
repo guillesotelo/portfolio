@@ -10,10 +10,12 @@
 
     &__text {
         text-align: center;
+        animation: fade 1s ease-in forwards;
     }
 
     &__title {
         width: 100%;
+        margin-top: 0;
     }
 
     &__experiences {

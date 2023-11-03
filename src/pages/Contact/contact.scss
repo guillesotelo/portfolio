@@ -7,10 +7,17 @@
 
     &__title {
         margin-top: 0;
+        animation: fade .5s ease-in forwards;
+    }
+
+    &__subtitle {
+        opacity: 0;
+        animation: fade .5s ease-in forwards;
     }
 
     &__text {
         margin-bottom: 2rem;
+        animation: fade .5s ease-in forwards;
     }
 
     &__social {
@@ -20,6 +27,9 @@
         gap: 4rem;
         align-items: center;
         margin: 4rem;
+        opacity: 0;
+        animation: fade-in 1s ease-in forwards;
+        animation-delay: .2s;
 
         &-svg {
             height: 2.5rem;

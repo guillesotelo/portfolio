@@ -11,8 +11,8 @@ export default function ({ }: Props): JSX.Element {
       <div className="home__text">
         <h1 className="home__title">Welcome to my tech journey!</h1>
         <p className="home__intro">
-          Hey there! I'm Guille, a software developer on a mission to make tech awesome. 
-          <br/>
+          Hey there! I'm Guille, a software developer on a mission to make tech awesome.
+          <br />
           Each card below tells a unique story of my digital adventures.
         </p>
       </div>
@@ -30,6 +30,18 @@ export default function ({ }: Props): JSX.Element {
           delay='0s'
         />
         <ExperienceCard
+          title='Angelita'
+          subtitle='Angela Sanguino'
+          description="Landing and web app for psichology consulting and sessions."
+          cover=''
+          iframe='https://angelita.vercel.app/'
+          repo='https://github.com/guillesotelo/angelita'
+          project='https://angelita.vercel.app/'
+          hover={hover}
+          setHover={setHover}
+          delay='.1s'
+        />
+        <ExperienceCard
           title='CtrlShift'
           subtitle=''
           description="Mobile and desktop app for finances control, for home and small businesses."
@@ -39,34 +51,9 @@ export default function ({ }: Props): JSX.Element {
           project='https://ctrlshift-app.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.1s'
-        />
-        <ExperienceCard
-          title='E.A.S.Y Notes'
-          subtitle=''
-          description="A simple mobile app to control and take notes on baby's activity. Inspired on the book 'Secrets of the Baby Whisperer'"
-          cover=''
-          iframe='https://easybaby-notes.vercel.app/'
-          repo='https://github.com/guillesotelo/easybaby-notes'
-          project='https://easybaby-notes.vercel.app/'
-          img='https://i.postimg.cc/YSSStyrL/smartmockups-loidxluy.jpg'
-          hover={hover}
-          setHover={setHover}
           delay='.2s'
         />
-        <ExperienceCard
-          title='DownDetector'
-          subtitle='Volvo Cars'
-          description="Customizable API endpoint checker with admin panel."
-          cover=''
-          iframe='https://github.com/guillesotelo/down-detector'
-          repo='https://github.com/guillesotelo/down-detector'
-          project='https://github.com/guillesotelo/down-detector'
-          img='https://i.postimg.cc/VN0SPVLs/Screenshot-from-2023-11-03-09-55-48.png'
-          hover={hover}
-          setHover={setHover}
-          delay='.3s'
-        />
+
         <ExperienceCard
           title='by Dany Garcia'
           subtitle='Daniela Garcia'
@@ -75,6 +62,18 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://bydanygarcia.vercel.app/'
           repo='https://github.com/guillesotelo/bydanygarcia'
           project='https://bydanygarcia.vercel.app/'
+          hover={hover}
+          setHover={setHover}
+          delay='.3s'
+        />
+        <ExperienceCard
+          title='DeeJS'
+          subtitle=''
+          description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control."
+          cover=''
+          iframe='https://deejs.vercel.app/'
+          repo='https://github.com/guillesotelo/threejs-boxy'
+          project='https://deejs.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='.4s'
@@ -92,13 +91,13 @@ export default function ({ }: Props): JSX.Element {
           delay='.5s'
         />
         <ExperienceCard
-          title='Flying Game'
+          title='ML Self-Driving'
           subtitle=''
-          description="Test your ability to fly an aeroplane with this simulation made with Three.js."
+          description="This is a self-driving car simulation powered by machine learning and implemented in JavaScript. The project focuses on training an AI model to control a car and navigate it safely through an environment with other cars, avoiding collisions."
           cover=''
-          iframe='https://flying-game.vercel.app'
-          repo='https://github.com/guillesotelo/flying-game'
-          project='https://flying-game.vercel.app'
+          iframe='https://ml-self-driving.vercel.app/'
+          repo='https://github.com/guillesotelo/ml-self-driving'
+          project='https://ml-self-driving.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='.6s'
@@ -117,28 +116,42 @@ export default function ({ }: Props): JSX.Element {
           delay='.7s'
         />
         <ExperienceCard
-          title='ML Self-Driving'
-          subtitle=''
-          description="This is a self-driving car simulation powered by machine learning and implemented in JavaScript. The project focuses on training an AI model to control a car and navigate it safely through an environment with other cars, avoiding collisions."
+          title='DownDetector'
+          subtitle='Volvo Cars'
+          description="Customizable API endpoint checker with admin panel."
           cover=''
-          iframe='https://ml-self-driving.vercel.app/'
-          repo='https://github.com/guillesotelo/ml-self-driving'
-          project='https://ml-self-driving.vercel.app/'
+          iframe='https://github.com/guillesotelo/down-detector'
+          repo='https://github.com/guillesotelo/down-detector'
+          project='https://github.com/guillesotelo/down-detector'
+          img='https://i.postimg.cc/VN0SPVLs/Screenshot-from-2023-11-03-09-55-48.png'
           hover={hover}
           setHover={setHover}
           delay='.8s'
         />
         <ExperienceCard
-          title='Angelita'
-          subtitle='Angela Sanguino'
-          description="Landing and web app for psichology consulting and sessions."
+          title='E.A.S.Y Notes'
+          subtitle=''
+          description="A simple mobile app to control and take notes on baby's activity. Inspired on the book 'Secrets of the Baby Whisperer'"
           cover=''
-          iframe='https://angelita.vercel.app/'
-          repo='https://github.com/guillesotelo/angelita'
-          project='https://angelita.vercel.app/'
+          iframe='https://easybaby-notes.vercel.app/'
+          repo='https://github.com/guillesotelo/easybaby-notes'
+          project='https://easybaby-notes.vercel.app/'
+          img='https://i.postimg.cc/YSSStyrL/smartmockups-loidxluy.jpg'
           hover={hover}
           setHover={setHover}
           delay='.9s'
+        />
+        <ExperienceCard
+          title='Flying Game'
+          subtitle=''
+          description="Test your ability to fly an aeroplane with this simulation made with Three.js."
+          cover=''
+          iframe='https://flying-game.vercel.app'
+          repo='https://github.com/guillesotelo/flying-game'
+          project='https://flying-game.vercel.app'
+          hover={hover}
+          setHover={setHover}
+          delay='1s'
         />
         <ExperienceCard
           title='Space Punks'
@@ -150,7 +163,19 @@ export default function ({ }: Props): JSX.Element {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1s'
+          delay='1.1s'
+        />
+        <ExperienceCard
+          title='Magis Hogar Home'
+          subtitle='Magis Hogar'
+          description="A landing page and client platform for the everyday real state investments."
+          cover=''
+          iframe='https://magishogar-public.vercel.app/'
+          repo='https://github.com/guillesotelo/magishogar'
+          project='https://magishogar-public.vercel.app/'
+          hover={hover}
+          setHover={setHover}
+          delay='1.2s'
         />
         <ExperienceCard
           title='Canvas Shooting'
@@ -163,19 +188,7 @@ export default function ({ }: Props): JSX.Element {
           img='https://i.postimg.cc/nhKtNKqj/Screenshot-from-2023-11-03-10-07-13.png'
           hover={hover}
           setHover={setHover}
-          delay='1.1s'
-        />
-         <ExperienceCard
-          title='DeeJS'
-          subtitle=''
-          description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control."
-          cover=''
-          iframe='https://deejs.vercel.app/'
-          repo='https://github.com/guillesotelo/threejs-boxy'
-          project='https://deejs.vercel.app/'
-          hover={hover}
-          setHover={setHover}
-          delay='1.2s'
+          delay='1.3s'
         />
         <ExperienceCard
           title='Boxy'
@@ -186,18 +199,6 @@ export default function ({ }: Props): JSX.Element {
           repo='https://github.com/guillesotelo/threejs-boxy'
           project='https://threejs-boxy.vercel.app/'
           img='https://i.postimg.cc/bNhGngYd/Screenshot-from-2023-11-03-10-08-42.png'
-          hover={hover}
-          setHover={setHover}
-          delay='1.3s'
-        />
-        <ExperienceCard
-          title='Magis Hogar Home'
-          subtitle='Magis Hogar'
-          description="A landing page and client platform for the everyday real state investments."
-          cover=''
-          iframe='https://magishogar-public.vercel.app/'
-          repo='https://github.com/guillesotelo/magishogar'
-          project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='1.4s'
