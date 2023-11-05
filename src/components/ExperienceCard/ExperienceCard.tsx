@@ -6,9 +6,9 @@ type Props = {
   subtitle: string
   description: string
   cover: string
-  iframe: string
-  repo: string
-  project: string
+  iframe?: string
+  repo?: string
+  project?: string
   hover: string
   setHover: (s: string) => void
   delay?: string
@@ -35,14 +35,14 @@ export default function ExperienceCard(props: Props) {
   const goToRepo = () => {
     const anchor = document.createElement('a')
     anchor.target = '_blank'
-    anchor.href = repo
+    anchor.href = repo || ''
     anchor.click()
   }
 
   const goToApp = () => {
     const anchor = document.createElement('a')
     anchor.target = '_blank'
-    anchor.href = project
+    anchor.href = project || ''
     anchor.click()
   }
 
@@ -66,14 +66,14 @@ export default function ExperienceCard(props: Props) {
         </div>
         {cover ? <img src={cover} alt="Experience Image" className="experience-card__image" /> : ''}
         <div className="experience-card__btns">
-          <Button
+          {project ? <Button
             label='Visit project'
             handleClick={goToApp}
-          />
-          <Button
+          /> : ''}
+          {repo ? <Button
             label='Go to repo'
             handleClick={goToRepo}
-          />
+          /> : ''}
         </div>
       </div>
       <div className="experience-card__iframe-container">

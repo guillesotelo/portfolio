@@ -53,7 +53,6 @@ export default function ({ }: Props): JSX.Element {
           setHover={setHover}
           delay='.2s'
         />
-
         <ExperienceCard
           title='by Dany Garcia'
           subtitle='Daniela Garcia'
@@ -67,6 +66,19 @@ export default function ({ }: Props): JSX.Element {
           delay='.3s'
         />
         <ExperienceCard
+          title='CSA360'
+          subtitle=''
+          description="All-In-One physical security operations management software that helps security teams enhance management of their operations. Seamlessly link your field activities and admin back office, automate tasks, and save money with this single platform solution."
+          cover=''
+          iframe='https://www.csa360software.com/'
+          repo=''
+          project='https://login.csa360.app/'
+          img='https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/104a5574-f62e-4683-baed-1e91163b9520.png'
+          hover={hover}
+          setHover={setHover}
+          delay='.4s'
+        />
+        <ExperienceCard
           title='DeeJS'
           subtitle=''
           description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control."
@@ -76,7 +88,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://deejs.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.5s'
         />
         <ExperienceCard
           title='Code Compiler'
@@ -88,7 +100,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://code-compiler-v2.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.5s'
+          delay='.6s'
         />
         <ExperienceCard
           title='ML Self-Driving'
@@ -100,7 +112,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://ml-self-driving.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.6s'
+          delay='.7s'
         />
         <ExperienceCard
           title='HTML to MD Converter'
@@ -113,7 +125,7 @@ export default function ({ }: Props): JSX.Element {
           img='https://stiltsoft.com/wp-content/uploads/2023/04/page-history.png'
           hover={hover}
           setHover={setHover}
-          delay='.7s'
+          delay='.8s'
         />
         <ExperienceCard
           title='DownDetector'
@@ -126,7 +138,7 @@ export default function ({ }: Props): JSX.Element {
           img='https://i.postimg.cc/VN0SPVLs/Screenshot-from-2023-11-03-09-55-48.png'
           hover={hover}
           setHover={setHover}
-          delay='.8s'
+          delay='.9s'
         />
         <ExperienceCard
           title='E.A.S.Y Notes'
@@ -139,7 +151,7 @@ export default function ({ }: Props): JSX.Element {
           img='https://i.postimg.cc/YSSStyrL/smartmockups-loidxluy.jpg'
           hover={hover}
           setHover={setHover}
-          delay='.9s'
+          delay='1s'
         />
         <ExperienceCard
           title='Flying Game'
@@ -151,7 +163,20 @@ export default function ({ }: Props): JSX.Element {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1s'
+          delay='1.1s'
+        />
+        <ExperienceCard
+          title='SQLite Search Engine'
+          subtitle=''
+          description="Full-text search engine built using SQLite database with python and javascript controllers to fetch data fasater than a regular frontend indexing. Used for Volvo documentation platform."
+          cover=''
+          iframe=''
+          repo='https://github.com/guillesotelo/sqlite-search'
+          project=''
+          img='https://media.charlesleifer.com/blog/photos/fts-sqlite.png'
+          hover={hover}
+          setHover={setHover}
+          delay='1.2s'
         />
         <ExperienceCard
           title='Space Punks'
@@ -163,7 +188,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.1s'
+          delay='1.3s'
         />
         <ExperienceCard
           title='Magis Hogar Home'
@@ -175,7 +200,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.4s'
         />
         <ExperienceCard
           title='Canvas Shooting'
@@ -188,7 +213,20 @@ export default function ({ }: Props): JSX.Element {
           img='https://i.postimg.cc/nhKtNKqj/Screenshot-from-2023-11-03-10-07-13.png'
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
+          delay='1.5s'
+        />
+        <ExperienceCard
+          title='Pytorch Training'
+          subtitle=''
+          description="A full study on how to create datasets, train a model, predict results using linear algorithms and run testings. All made with the power of pytorch toolkit and python libraries."
+          cover=''
+          iframe=''
+          repo='https://colab.research.google.com/drive/18BFuL-hmroiIgZOgNVxX_c-L4WxlQdI3#scrollTo=qQLqFQMoSnov'
+          project=''
+          img='https://i.postimg.cc/nr2krXB7/Screen-Shot-2023-11-05-at-09-42-22.png'
+          hover={hover}
+          setHover={setHover}
+          delay='1.6s'
         />
         <ExperienceCard
           title='Boxy'
@@ -201,7 +239,7 @@ export default function ({ }: Props): JSX.Element {
           img='https://i.postimg.cc/bNhGngYd/Screenshot-from-2023-11-03-10-08-42.png'
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.7s'
         />
         <ExperienceCard
           title='Schedy'
@@ -213,7 +251,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://schedy.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.8s'
         />
       </div>
       <p className="home__copyright">Guillermo Sotelo © 2023</p>
