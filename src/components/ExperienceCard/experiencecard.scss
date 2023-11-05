@@ -157,7 +157,21 @@
             -webkit-box-orient: vertical;
         }
 
-        &__image {}
+        &__image {
+            border-radius: 1rem;
+            border: none;
+            overflow: hidden;
+            scrollbar-width: 0;
+            pointer-events: none;
+            width: 200vw;
+            // height: 120vw;
+            max-height: unset;
+            transform: scale(0.4);
+            transform-origin: 0 0;
+            background-color: white;
+            transition: .3s;
+            object-fit: cover;
+        }
 
         &__iframe {
             border-radius: 1rem;

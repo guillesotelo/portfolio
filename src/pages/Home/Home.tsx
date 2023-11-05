@@ -86,6 +86,7 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://deejs.vercel.app/'
           repo='https://github.com/guillesotelo/threejs-boxy'
           project='https://deejs.vercel.app/'
+          img='https://i.postimg.cc/BbzWrpgw/Screen-Shot-2023-11-05-at-19-11-40.png'
           hover={hover}
           setHover={setHover}
           delay='.5s'
