@@ -154,7 +154,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Image Compressor'
           subtitle=''
-          description="This script converts image files (jpg, jpeg, png and gif) and compress them using sharp algorithm and JS file handlers. It takes a folder path and copy everything maintaining its file structure."
+          description="This script converts image files (jpg, jpeg, png and gif) and compresses them using sharp algorithm and JS file handlers. It takes a folder path and copies everything maintaining its file structure."
           cover=''
           iframe='https://github.com/guillesotelo/image-compressor'
           repo='https://github.com/guillesotelo/image-compressor'
