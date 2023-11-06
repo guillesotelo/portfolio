@@ -1,5 +1,15 @@
 import React, { useState } from 'react'
 import ExperienceCard from '../../components/ExperienceCard/ExperienceCard'
+import Csa360 from '../../assets/images/csa360.png'
+import DeeJS from '../../assets/images/deejs.png'
+import HtmlMdConverter from '../../assets/images/confluence.png'
+import DownDetector from '../../assets/images/downdetector.png'
+import ImageCompressor from '../../assets/images/iamgecompressor.png'
+import EasyBaby from '../../assets/images/easybaby.jpg'
+import SqliteSearch from '../../assets/images/sqlitesearch.png'
+import CanvasShooting from '../../assets/images/canvasshooting.png'
+import PyTorch from '../../assets/images/pytorch.png'
+import Boxy from '../../assets/images/boxy.png'
 
 type Props = {}
 
@@ -73,7 +83,7 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://www.csa360software.com/'
           repo=''
           project='https://login.csa360.app/'
-          img='https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/104a5574-f62e-4683-baed-1e91163b9520.png'
+          img={Csa360}
           hover={hover}
           setHover={setHover}
           delay='.4s'
@@ -86,7 +96,7 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://deejs.vercel.app/'
           repo='https://github.com/guillesotelo/threejs-boxy'
           project='https://deejs.vercel.app/'
-          img='https://i.postimg.cc/BbzWrpgw/Screen-Shot-2023-11-05-at-19-11-40.png'
+          img={DeeJS}
           hover={hover}
           setHover={setHover}
           delay='.5s'
@@ -123,7 +133,7 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://github.com/guillesotelo/html-to-md-converter'
           repo='https://github.com/guillesotelo/html-to-md-converter'
           project='https://github.com/guillesotelo/html-to-md-converter'
-          img='https://stiltsoft.com/wp-content/uploads/2023/04/page-history.png'
+          img={HtmlMdConverter}
           hover={hover}
           setHover={setHover}
           delay='.8s'
@@ -136,10 +146,23 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://github.com/guillesotelo/down-detector'
           repo='https://github.com/guillesotelo/down-detector'
           project='https://github.com/guillesotelo/down-detector'
-          img='https://i.postimg.cc/VN0SPVLs/Screenshot-from-2023-11-03-09-55-48.png'
+          img={DownDetector}
           hover={hover}
           setHover={setHover}
           delay='.9s'
+        />
+        <ExperienceCard
+          title='Image Compressor'
+          subtitle=''
+          description="This script converts image files (jpg, jpeg, png and gif) and compress them using sharp algorithm and JS file handlers. It takes a folder path and copy everything maintaining its file structure."
+          cover=''
+          iframe='https://github.com/guillesotelo/image-compressor'
+          repo='https://github.com/guillesotelo/image-compressor'
+          project='https://github.com/guillesotelo/image-compressor'
+          img={ImageCompressor}
+          hover={hover}
+          setHover={setHover}
+          delay='1s'
         />
         <ExperienceCard
           title='E.A.S.Y Notes'
@@ -149,10 +172,10 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://easybaby-notes.vercel.app/'
           repo='https://github.com/guillesotelo/easybaby-notes'
           project='https://easybaby-notes.vercel.app/'
-          img='https://i.postimg.cc/YSSStyrL/smartmockups-loidxluy.jpg'
+          img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1s'
+          delay='1.2s'
         />
         <ExperienceCard
           title='Flying Game'
@@ -164,7 +187,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1.1s'
+          delay='1.2s'
         />
         <ExperienceCard
           title='SQLite Search Engine'
@@ -174,10 +197,10 @@ export default function ({ }: Props): JSX.Element {
           iframe=''
           repo='https://github.com/guillesotelo/sqlite-search'
           project=''
-          img='https://media.charlesleifer.com/blog/photos/fts-sqlite.png'
+          img={SqliteSearch}
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.3s'
         />
         <ExperienceCard
           title='Space Punks'
@@ -189,7 +212,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
+          delay='1.4s'
         />
         <ExperienceCard
           title='Magis Hogar Home'
@@ -201,7 +224,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
         />
         <ExperienceCard
           title='Canvas Shooting'
@@ -211,10 +234,10 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://canvas-shooting.vercel.app/'
           repo='https://github.com/guillesotelo/canvas-shooting'
           project='https://canvas-shooting.vercel.app/'
-          img='https://i.postimg.cc/nhKtNKqj/Screenshot-from-2023-11-03-10-07-13.png'
+          img={CanvasShooting}
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.6s'
         />
         <ExperienceCard
           title='Pytorch Training'
@@ -224,10 +247,10 @@ export default function ({ }: Props): JSX.Element {
           iframe=''
           repo='https://colab.research.google.com/drive/18BFuL-hmroiIgZOgNVxX_c-L4WxlQdI3#scrollTo=qQLqFQMoSnov'
           project=''
-          img='https://i.postimg.cc/nr2krXB7/Screen-Shot-2023-11-05-at-09-42-22.png'
+          img={PyTorch}
           hover={hover}
           setHover={setHover}
-          delay='1.6s'
+          delay='1.7s'
         />
         <ExperienceCard
           title='Boxy'
@@ -237,10 +260,10 @@ export default function ({ }: Props): JSX.Element {
           iframe='https://threejs-boxy.vercel.app/'
           repo='https://github.com/guillesotelo/threejs-boxy'
           project='https://threejs-boxy.vercel.app/'
-          img='https://i.postimg.cc/bNhGngYd/Screenshot-from-2023-11-03-10-08-42.png'
+          img={Boxy}
           hover={hover}
           setHover={setHover}
-          delay='1.7s'
+          delay='1.8s'
         />
         <ExperienceCard
           title='Schedy'
@@ -252,7 +275,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://schedy.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.8s'
+          delay='1.9s'
         />
       </div>
       <p className="home__copyright">Guillermo Sotelo © 2023</p>
