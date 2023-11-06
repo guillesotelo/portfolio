@@ -152,9 +152,9 @@ export default function ({ }: Props): JSX.Element {
           delay='.9s'
         />
         <ExperienceCard
-          title='Image Compressor'
+          title='Image & Video Compressor'
           subtitle=''
-          description="This script converts image files (jpg, jpeg, png and gif) and compresses them using sharp algorithm and JS file handlers. It takes a folder path and copies everything maintaining its file structure."
+          description="This script converts image and video files (jpg, jpeg, png, gif, mp4, avi and mkv) and compresses them using *sharp* and *ffmpeg* algorithms."
           cover=''
           iframe='https://github.com/guillesotelo/image-compressor'
           repo='https://github.com/guillesotelo/image-compressor'
