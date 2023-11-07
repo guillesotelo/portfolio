@@ -132,7 +132,7 @@ export default function ({ }: Props): JSX.Element {
           cover=''
           iframe='https://github.com/guillesotelo/html-to-md-converter'
           repo='https://github.com/guillesotelo/html-to-md-converter'
-          project='https://github.com/guillesotelo/html-to-md-converter'
+          // project='https://github.com/guillesotelo/html-to-md-converter'
           img={HtmlMdConverter}
           hover={hover}
           setHover={setHover}
@@ -145,7 +145,7 @@ export default function ({ }: Props): JSX.Element {
           cover=''
           iframe='https://github.com/guillesotelo/down-detector'
           repo='https://github.com/guillesotelo/down-detector'
-          project='https://github.com/guillesotelo/down-detector'
+          // project='https://github.com/guillesotelo/down-detector'
           img={DownDetector}
           hover={hover}
           setHover={setHover}
@@ -158,7 +158,7 @@ export default function ({ }: Props): JSX.Element {
           cover=''
           iframe='https://github.com/guillesotelo/image-compressor'
           repo='https://github.com/guillesotelo/image-compressor'
-          project='https://github.com/guillesotelo/image-compressor'
+          // project='https://github.com/guillesotelo/image-compressor'
           img={ImageCompressor}
           hover={hover}
           setHover={setHover}
