@@ -42,7 +42,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Angelita'
           subtitle='Angela Sanguino'
-          description="Landing and web app for psichology consulting and sessions."
+          description="Landing and web app for psichology consulting. It has a complete booking platform with payments connected through Stripe and mailing campaigns."
           cover=''
           iframe='https://angelita.vercel.app/'
           repo='https://github.com/guillesotelo/angelita'
@@ -54,7 +54,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='CtrlShift'
           subtitle=''
-          description="Mobile and desktop app for finances control, for home and small businesses."
+          description="Mobile and desktop app for finance control, for home and small businesses. With it you can have a clear picture of your monthly expenses setting budgets for your categories. It also has modules like tasks, notes and the posibility of creating an sharing different ledger books."
           cover=''
           iframe='https://ctrlshift-app.vercel.app/'
           repo='https://github.com/guillesotelo/ctrlshift-app'
@@ -91,7 +91,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='DeeJS'
           subtitle=''
-          description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control."
+          description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control. Made with the professional help of DJ Brian Kuhn."
           cover=''
           iframe='https://deejs.vercel.app/'
           repo='https://github.com/guillesotelo/threejs-boxy'
@@ -104,7 +104,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Code Compiler'
           subtitle=''
-          description="Write, compile and run your code with this both simple and complete editor capable of work with 40+ languages."
+          description="Write, compile and run your code with this excellent code editor, capable of work with 40+ languages. With autosaving and debugging functions."
           cover=''
           iframe='https://code-compiler-v2.vercel.app/'
           repo='https://github.com/guillesotelo/code-compiler'
@@ -128,7 +128,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='HTML to MD Converter'
           subtitle=''
-          description="With a pretty straightforward title, this Python application is made to run in a backend server and fetch Confluence pages to convert them into Markdown."
+          description="With a pretty straightforward title, this Python application is made to run in a backend server and fetch Confluence pages to convert them into Markdown. It has several parsers to handle complex scenarios that Confluence documentation pages can bring with them."
           cover=''
           iframe='https://github.com/guillesotelo/html-to-md-converter'
           repo='https://github.com/guillesotelo/html-to-md-converter'
@@ -141,7 +141,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='DownDetector'
           subtitle='Volvo Cars'
-          description="Customizable API endpoint checker with admin panel."
+          description="Customizable API endpoint checker with admin panels. Inspired by the original DownDetector, it brings some specific features like API ownerships and system reporting."
           cover=''
           iframe='https://github.com/guillesotelo/down-detector'
           repo='https://github.com/guillesotelo/down-detector'
@@ -154,7 +154,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Image & Video Compressor'
           subtitle=''
-          description="This script converts image and video files (jpg, jpeg, png, gif, mp4, avi and mkv) and compresses them using sharp and ffmpeg algorithms."
+          description="This script can convert image and video files (jpg, jpeg, png, gif, mp4, avi and mkv) and compresses them using sharp and ffmpeg algorithms. It was created to run before cloud uploading and it can reduce data space down to 70% without much compression loss."
           cover=''
           iframe='https://github.com/guillesotelo/image-compressor'
           repo='https://github.com/guillesotelo/image-compressor'
@@ -167,7 +167,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='E.A.S.Y Notes'
           subtitle=''
-          description="A simple mobile app to control and take notes on baby's activity. Inspired on the book 'Secrets of the Baby Whisperer'"
+          description="A simple mobile app to control and take notes on the baby's activity. Inspired on the book 'Secrets of the Baby Whisperer', this app can be your close friend in the early days of your newborn as it was with mine."
           cover=''
           iframe='https://easybaby-notes.vercel.app/'
           repo='https://github.com/guillesotelo/easybaby-notes'
@@ -180,7 +180,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Flying Game'
           subtitle=''
-          description="Test your ability to fly an aeroplane with this simulation made with Three.js."
+          description="Test your ability to fly an aeroplane with this incredible simulation made with Three.js. The map and scenary are made with Blender and the entire game is coded with vanilla JavaScript."
           cover=''
           iframe='https://flying-game.vercel.app'
           repo='https://github.com/guillesotelo/flying-game'
@@ -217,7 +217,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Magis Hogar Home'
           subtitle='Magis Hogar'
-          description="A landing page and client platform for the everyday real state investments."
+          description="A landing page and client platform for the everyday real state investments. This page is a mock for the real one (not public), which is used for small investors across Latin America."
           cover=''
           iframe='https://magishogar-public.vercel.app/'
           repo='https://github.com/guillesotelo/magishogar'
@@ -229,7 +229,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Canvas Shooting'
           subtitle=''
-          description="An intense shooting game made with canva and Vanilla JavaScript."
+          description="An intense shooting game made with canva and Vanilla JavaScript. This is the result of a practical study of canva and its browser behaviour in real time."
           cover=''
           iframe='https://canvas-shooting.vercel.app/'
           repo='https://github.com/guillesotelo/canvas-shooting'
@@ -242,7 +242,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Pytorch Training'
           subtitle=''
-          description="A full study on how to create datasets, train a model, predict results using linear algorithms and run testings. All made with the power of pytorch toolkit and python libraries."
+          description="A full study on how to create datasets, train a model, predict results using linear algorithms and run testings. All made with the power of Pytorch toolkit and the most common mathematical python libraries."
           cover=''
           iframe=''
           repo='https://colab.research.google.com/drive/18BFuL-hmroiIgZOgNVxX_c-L4WxlQdI3#scrollTo=qQLqFQMoSnov'
@@ -255,7 +255,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Boxy'
           subtitle=''
-          description="Fun and simple game developed using Three.js"
+          description="Fun and simple game developed using Three.js. Choosen to give some first steps into the Three library using Vanilla JS."
           cover=''
           iframe='https://threejs-boxy.vercel.app/'
           repo='https://github.com/guillesotelo/threejs-boxy'
@@ -268,7 +268,7 @@ export default function ({ }: Props): JSX.Element {
         <ExperienceCard
           title='Schedy'
           subtitle=''
-          description="Appointment Calendar App for a hairdressing, made with pure JavaScript, React and Mongo."
+          description="Booking App for a hairdressing store, made with Node, React and Mongo. It includes administrator panel and custom mailing notifications."
           cover=''
           iframe='https://schedy.vercel.app/'
           repo='https://github.com/guillesotelo/schedy'
