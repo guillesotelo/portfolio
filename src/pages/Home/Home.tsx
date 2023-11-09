@@ -68,9 +68,9 @@ export default function ({ }: Props): JSX.Element {
           subtitle='Daniela Garcia'
           description="Creative, Aware, Inspire, is the slogan for this fantastic blog written by Daniela. It represents a landing page for the artist, her blog and a platform for her unique business called 'Bespoken'."
           cover=''
-          iframe='https://bydanygarcia.vercel.app/'
+          iframe='https://www.bydanygarcia.com/'
           repo='https://github.com/guillesotelo/bydanygarcia'
-          project='https://bydanygarcia.vercel.app/'
+          project='https://www.bydanygarcia.com/'
           hover={hover}
           setHover={setHover}
           delay='.3s'
