@@ -33,7 +33,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
+        background-image: linear-gradient(to bottom right, black, #a9a9a952);
+        
         &:hover {
             border: 2px solid #c3b9e4;
         }
