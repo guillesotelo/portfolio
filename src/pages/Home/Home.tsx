@@ -29,7 +29,7 @@ export default function ({ }: Props): JSX.Element {
       <div className="home__experiences">
         <ExperienceCard
           title='CV Maker'
-          subtitle='Sigma Connectivity Engineering'
+          subtitle='Sigma Connectivity'
           description="A platform to build your entire resume with a bunch of built-in editing tools. For manager roles, there's also modules to manage employee and client data with activity and statistics modules."
           cover=''
           iframe='https://sigma-cvmaker.vercel.app/'
@@ -77,7 +77,7 @@ export default function ({ }: Props): JSX.Element {
         />
         <ExperienceCard
           title='CSA360'
-          subtitle=''
+          subtitle='Archon Tech Strategies'
           description="All-In-One physical security operations management software that helps security teams enhance management of their operations. Seamlessly link your field activities and admin back office, automate tasks, and save money with this single platform solution."
           cover=''
           iframe='https://www.csa360software.com/'
@@ -127,7 +127,7 @@ export default function ({ }: Props): JSX.Element {
         />
         <ExperienceCard
           title='HTML to MD Converter'
-          subtitle=''
+          subtitle='Volvo Cars'
           description="With a pretty straightforward title, this Python application is made to run in a backend server and fetch Confluence pages to convert them into Markdown. It has several parsers to handle complex scenarios that Confluence documentation pages can bring with them."
           cover=''
           iframe='https://github.com/guillesotelo/html-to-md-converter'
@@ -191,7 +191,7 @@ export default function ({ }: Props): JSX.Element {
         />
         <ExperienceCard
           title='SQLite Search Engine'
-          subtitle=''
+          subtitle='Volvo Cars'
           description="Full-text search engine built using SQLite database with python and javascript controllers to fetch data fasater than a regular frontend indexing. Used for Volvo documentation platform."
           cover=''
           iframe=''
@@ -267,7 +267,7 @@ export default function ({ }: Props): JSX.Element {
         />
         <ExperienceCard
           title='Schedy'
-          subtitle=''
+          subtitle='Gerardo Losasso'
           description="Booking App for a hairdressing store, made with Node, React and Mongo. It includes administrator panel and custom mailing notifications."
           cover=''
           iframe='https://schedy.vercel.app/'
