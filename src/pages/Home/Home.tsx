@@ -94,7 +94,7 @@ export default function ({ }: Props): JSX.Element {
           description="A simple but complete DJ app for online mixing with multiple modules and advanced audio control. Made with the professional help of DJ Brian Kuhn."
           cover=''
           iframe='https://deejs.vercel.app/'
-          repo='https://github.com/guillesotelo/threejs-boxy'
+          repo='https://github.com/guillesotelo/deejs'
           project='https://deejs.vercel.app/'
           img={DeeJS}
           hover={hover}
