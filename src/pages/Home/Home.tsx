@@ -10,18 +10,24 @@ import SqliteSearch from '../../assets/images/sqlitesearch.png'
 import CanvasShooting from '../../assets/images/canvasshooting.png'
 import PyTorch from '../../assets/images/pytorch.png'
 import Boxy from '../../assets/images/boxy.png'
+import Button from '../../components/Button/Button'
 
-type Props = {}
-
-export default function ({ }: Props): JSX.Element {
+export default function () {
   const [hover, setHover] = useState('')
+
+  const goToGitHub = () => {
+    const anchor = document.createElement('a')
+    anchor.target = '_blank'
+    anchor.href = 'https://github.com/guillesotelo'
+    anchor.click()
+  }
 
   return (
     <div className="home__container">
       <div className="home__text">
         <h1 className="home__title">Welcome to my tech journey!</h1>
         <p className="home__intro">
-          Hey there! I'm Guille, a software developer on a mission to make tech awesome.
+          Hey there! I'm Guillermo, a software developer on a mission to make tech awesome.
           <br />
           Each card below tells a unique story of my digital adventures.
         </p>
@@ -38,7 +44,7 @@ export default function ({ }: Props): JSX.Element {
           img={DownDetector}
           hover={hover}
           setHover={setHover}
-          delay='.9s'
+          delay='0s'
         />
         <ExperienceCard
           title='CV Maker'
@@ -50,7 +56,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://sigma-cvmaker.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='0s'
+          delay='.1s'
         />
         <ExperienceCard
           title='Angelita'
@@ -62,7 +68,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://angelita.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.1s'
+          delay='.2s'
         />
         <ExperienceCard
           title='CtrlShift'
@@ -74,7 +80,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://ctrlshift-app.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.2s'
+          delay='.3s'
         />
         <ExperienceCard
           title='by Dany Garcia'
@@ -86,7 +92,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://www.bydanygarcia.com/'
           hover={hover}
           setHover={setHover}
-          delay='.3s'
+          delay='.4s'
         />
         <ExperienceCard
           title='CSA360'
@@ -99,7 +105,7 @@ export default function ({ }: Props): JSX.Element {
           img={Csa360}
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.5s'
         />
         <ExperienceCard
           title='DeeJS'
@@ -112,7 +118,7 @@ export default function ({ }: Props): JSX.Element {
           img={DeeJS}
           hover={hover}
           setHover={setHover}
-          delay='.5s'
+          delay='.6s'
         />
         <ExperienceCard
           title='Code Compiler'
@@ -124,7 +130,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://code-compiler-v2.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.6s'
+          delay='.7s'
         />
         <ExperienceCard
           title='ML Self-Driving'
@@ -136,7 +142,7 @@ export default function ({ }: Props): JSX.Element {
           project='https://ml-self-driving.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.7s'
+          delay='.8s'
         />
         <ExperienceCard
           title='HTML to MD Converter'
@@ -149,7 +155,7 @@ export default function ({ }: Props): JSX.Element {
           img={HtmlMdConverter}
           hover={hover}
           setHover={setHover}
-          delay='.8s'
+          delay='.9s'
         />
         <ExperienceCard
           title='Image & Video Compressor'
@@ -175,7 +181,7 @@ export default function ({ }: Props): JSX.Element {
           img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.1s'
         />
         <ExperienceCard
           title='Flying Game'
@@ -278,7 +284,14 @@ export default function ({ }: Props): JSX.Element {
           delay='1.9s'
         />
       </div>
-      <p className="home__copyright">Guillermo Sotelo © 2023</p>
+      <Button
+        label='See more'
+        handleClick={goToGitHub}
+        bgColor='transparent'
+        textColor='#c1b7e0'
+        style={{ marginTop: '4rem'}}
+      />
+      <p className="home__copyright">Guillermo Sotelo © 2024</p>
     </div>
   )
 }

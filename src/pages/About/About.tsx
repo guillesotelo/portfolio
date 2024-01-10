@@ -2,9 +2,7 @@ import React from 'react'
 import Profile from '../../assets/images/guille.png'
 import { useHistory } from 'react-router-dom'
 
-type Props = {}
-
-export default function About({ }: Props) {
+export default function About() {
   const isMobile = window.innerWidth < 640
   const history = useHistory()
 

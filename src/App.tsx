@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Switch, Route, useLocation, useHistory } from "react-router-dom";
+import React from 'react';
+import { Switch, Route } from "react-router-dom";
 import Home from './pages/Home/Home'
 import './scss/app.scss'
 import Header from './components/Header/Header';

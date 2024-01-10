@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Button from '../Button/Button'
 import { useHistory } from 'react-router-dom'
 
-type Props = {}
-
-export default function Header({ }: Props) {
+export default function Header() {
   const [page, setPage] = useState('')
   const history = useHistory()
 

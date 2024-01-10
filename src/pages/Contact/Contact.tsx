@@ -3,9 +3,7 @@ import Linkedin from '../../assets/icons/linkedin.svg'
 import Github from '../../assets/icons/github.svg'
 import Instagram from '../../assets/icons/instagram.svg'
 
-type Props = {}
-
-export default function Contact({ }: Props) {
+export default function Contact() {
   return (
     <div className="contact__container">
       <h1 className="contact__title">Get in touch</h1>

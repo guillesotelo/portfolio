@@ -12,9 +12,7 @@ import Angelita from '../../assets/logos/angelita.png'
 import Conexio from '../../assets/logos/conexio.png'
 import Interval from '../../assets/logos/interval.svg'
 
-type Props = {}
-
-export default function Clients({ }: Props) {
+export default function Clients() {
     return (
         <div className="clients__container">
             <div className="home__text">
