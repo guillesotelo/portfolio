@@ -28,6 +28,19 @@ export default function ({ }: Props): JSX.Element {
       </div>
       <div className="home__experiences">
         <ExperienceCard
+          title='Down@Volvo'
+          subtitle='Volvo Cars'
+          description="Customizable API endpoint checker with admin panels. Inspired by the original DownDetector, it brings some specific features like API ownerships and system reporting."
+          cover=''
+          iframe='https://github.com/guillesotelo/down-detector'
+          repo='https://github.com/guillesotelo/down-detector'
+          // project='https://github.com/guillesotelo/down-detector'
+          img={DownDetector}
+          hover={hover}
+          setHover={setHover}
+          delay='.9s'
+        />
+        <ExperienceCard
           title='CV Maker'
           subtitle='Sigma Connectivity'
           description="A platform to build your entire resume with a bunch of built-in editing tools. For manager roles, there's also modules to manage employee and client data with activity and statistics modules."
@@ -137,19 +150,6 @@ export default function ({ }: Props): JSX.Element {
           hover={hover}
           setHover={setHover}
           delay='.8s'
-        />
-        <ExperienceCard
-          title='DownDetector'
-          subtitle='Volvo Cars'
-          description="Customizable API endpoint checker with admin panels. Inspired by the original DownDetector, it brings some specific features like API ownerships and system reporting."
-          cover=''
-          iframe='https://github.com/guillesotelo/down-detector'
-          repo='https://github.com/guillesotelo/down-detector'
-          // project='https://github.com/guillesotelo/down-detector'
-          img={DownDetector}
-          hover={hover}
-          setHover={setHover}
-          delay='.9s'
         />
         <ExperienceCard
           title='Image & Video Compressor'
