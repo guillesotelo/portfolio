@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Clients from './pages/Clients/Clients';
+import Policy from './pages/Policy/Policy';
 
 function App() {
   return (
@@ -25,6 +26,14 @@ function App() {
       <Route exact path='/clients'>
         <Header />
         <Clients />
+      </Route>
+      <Route exact path='/policy'>
+        <Header />
+        <Policy />
+      </Route>
+      <Route exact path='/policy:app'>
+        <Header />
+        <Policy />
       </Route>
       <Route>
         <Header />
