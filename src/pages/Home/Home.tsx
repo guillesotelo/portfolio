@@ -178,7 +178,7 @@ export default function () {
           cover=''
           iframe='https://github.com/guillesotelo/confluence-dark-mode'
           repo='https://github.com/guillesotelo/confluence-dark-mode'
-          // project='https://github.com/guillesotelo/confluence-dark-mode'
+          project='https://chromewebstore.google.com/detail/confluence-dark-mode/gilgiobfnchgmajlopdcadkapapomhlc'
           img={ConfluenceDark}
           hover={hover}
           setHover={setHover}
