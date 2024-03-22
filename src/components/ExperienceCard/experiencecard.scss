@@ -24,10 +24,10 @@
     }
 
     &__container {
-        border: 2px solid #c1b7e0;
+        border: 1px solid #736a8f;
         border-radius: 1rem;
-        width: 15vw;
-        height: 12vw;
+        width: 15rem;
+        height: 12rem;
         padding: 1rem;
         transition: .3s;
         display: flex;
@@ -36,7 +36,7 @@
         background-image: linear-gradient(to bottom right, black, #a9a9a952);
         
         &:hover {
-            border: 2px solid #c3b9e4;
+            border: 1px solid #c3b9e4;
         }
 
     }
