@@ -5,6 +5,7 @@ import DeeJS from '../../assets/images/deejs.png'
 import HtmlMdConverter from '../../assets/images/confluence.png'
 import DownDetector from '../../assets/images/downdetector.png'
 import ImageCompressor from '../../assets/images/iamgecompressor.png'
+import ConfluenceDark from '../../assets/images/confluencedark.png'
 import EasyBaby from '../../assets/images/easybaby.jpg'
 import SqliteSearch from '../../assets/images/sqlitesearch.png'
 import CanvasShooting from '../../assets/images/canvasshooting.png'
@@ -170,6 +171,19 @@ export default function () {
           setHover={setHover}
           delay='1s'
         />
+          <ExperienceCard
+          title='Confluence Dark Mode (Chrome Extension)'
+          subtitle=''
+          description="This Chrome extension applies dark mode styles to Confluence pages, making it easier to view Confluence content in low-light environments or for users who prefer dark themes."
+          cover=''
+          iframe='https://github.com/guillesotelo/confluence-dark-mode'
+          repo='https://github.com/guillesotelo/confluence-dark-mode'
+          // project='https://github.com/guillesotelo/confluence-dark-mode'
+          img={ConfluenceDark}
+          hover={hover}
+          setHover={setHover}
+          delay='1.1s'
+        />
         <ExperienceCard
           title='E.A.S.Y Notes'
           subtitle=''
@@ -181,7 +195,7 @@ export default function () {
           img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1.1s'
+          delay='1.2s'
         />
         <ExperienceCard
           title='Flying Game'
@@ -193,7 +207,7 @@ export default function () {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.3s'
         />
         <ExperienceCard
           title='SQLite Search Engine'
@@ -206,7 +220,7 @@ export default function () {
           img={SqliteSearch}
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
+          delay='1.4s'
         />
         <ExperienceCard
           title='Space Punks'
@@ -218,7 +232,7 @@ export default function () {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
         />
         <ExperienceCard
           title='Magis Hogar Home'
@@ -230,7 +244,7 @@ export default function () {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.6s'
         />
         <ExperienceCard
           title='Canvas Shooting'
@@ -243,7 +257,7 @@ export default function () {
           img={CanvasShooting}
           hover={hover}
           setHover={setHover}
-          delay='1.6s'
+          delay='1.7s'
         />
         <ExperienceCard
           title='Pytorch Training'
@@ -256,7 +270,7 @@ export default function () {
           img={PyTorch}
           hover={hover}
           setHover={setHover}
-          delay='1.7s'
+          delay='1.8s'
         />
         <ExperienceCard
           title='Boxy'
@@ -269,7 +283,7 @@ export default function () {
           img={Boxy}
           hover={hover}
           setHover={setHover}
-          delay='1.8s'
+          delay='1.9s'
         />
         <ExperienceCard
           title='Schedy'
@@ -281,7 +295,7 @@ export default function () {
           project='https://schedy.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.9s'
+          delay='2s'
         />
       </div>
       <Button
