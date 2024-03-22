@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Button from '../Button/Button'
 
 type Props = {
@@ -17,6 +17,20 @@ type Props = {
 
 export default function ExperienceCard(props: Props) {
   const isMobile = window.innerWidth < 900
+  const cardRef = useRef(null)
+  const [iframeStyles, setIframeStyles] = useState<React.CSSProperties>({})
+
+  useEffect(() => {
+    if (cardRef && cardRef.current) {
+      const { right } = (cardRef.current as HTMLDivElement).getBoundingClientRect()
+      if (right && window.innerWidth - right < 500) {
+        setIframeStyles({
+          left: '-30vw',
+          width: '32vw',
+        })
+      }
+    }
+  }, [])
 
   const {
     title,
@@ -53,12 +67,13 @@ export default function ExperienceCard(props: Props) {
       onMouseLeave={() => setHover('')}
       style={{
         filter: hover ? hover === title ? 'brightness(1)' : 'brightness(.3)' : 'brightness(1)',
-        paddingRight: hover ? hover === title && !isMobile ? '2rem' : '0' : '0',
+        paddingRight: hover ? hover === title && !isMobile && !iframeStyles.left ? '2rem' : '0' : '0',
+        paddingLeft: hover ? hover === title && !isMobile && iframeStyles.left ? '2rem' : '0' : '0',
         animationDelay: `${delay || '0'}`,
         zIndex: hover ? hover === title ? '3' : '1' : '1',
       }}
     >
-      <div className="experience-card__container">
+      <div className="experience-card__container" ref={cardRef}>
         <div className="experience-card__text">
           <h2 className="experience-card__title">{title}</h2>
           <h3 className="experience-card__subtitle">{subtitle}</h3>
@@ -76,7 +91,7 @@ export default function ExperienceCard(props: Props) {
           /> : ''}
         </div>
       </div>
-      <div className="experience-card__iframe-container">
+      <div className="experience-card__iframe-container" style={iframeStyles}>
         {img ? <img src={img} alt="Experience Image" className="experience-card__image" />
           : <iframe src={iframe} className="experience-card__iframe"></iframe>}
       </div>
