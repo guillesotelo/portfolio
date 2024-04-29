@@ -1,7 +1,7 @@
 .button {
     &__default {
         font-size: .8vw;
-        background-color: #c1b7e0bd;
+        background-color: #dbcfffbd;
         width: fit-content;
         padding: .3vw;
         border-radius: .3vw;
@@ -12,9 +12,9 @@
 
         &:hover {
             filter: brightness(110%);
-            border: 1px solid #c1b7e0;
+            border: 1px solid #dbcfffbd;
             background-color: transparent;
-            color: #c1b7e0;
+            color: #dbcfffbd;
             transition: .4s;
         }
 

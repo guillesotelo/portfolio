@@ -11,6 +11,7 @@ import ArchonTechStrategies from '../../assets/logos/archon_tech_strategies.png'
 import Angelita from '../../assets/logos/angelita.png'
 import Conexio from '../../assets/logos/conexio.png'
 import Interval from '../../assets/logos/interval.svg'
+import FlorenciaBernero from '../../assets/logos/florencia_bernero.png'
 
 export default function Clients() {
     return (
@@ -21,42 +22,46 @@ export default function Clients() {
                 </p>
             </div>
             <div className="clients__logos">
-                <div className="clients__logo-wrapper" style={{ animationDelay: '0s' }}>
-                    <a href='https://www.volvocars.com/se/' target='_blank'><img src={VolvoCars} alt="Volvo Cars" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.1s' }}>
-                    <a href='https://www.sigmaconnectivity.com/' target='_blank'>  <img src={SigmaConn} alt="Sigma Connectivity" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.2s' }}>
-                    <a href='https://www.sigma.se/sv/contact/sigma-connectivity-engineering/' target='_blank'>   <img src={SigmaConnE} alt="Sigma Connectivity Engineering" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.3s' }}>
-                    <a href='https://www.selessux.com/twigoh' target='_blank'> <img src={Twigoh} alt="Twigoh" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.4s' }}>
-                    <a href='https://interval.ar/' target='_blank'> <img src={Interval} alt="Magis Hogar" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.5s' }}>
-                    <a href='' target='_blank'> <img src={MagisHogar} alt="Magis Hogar" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.6s' }}>
-                    <a href='' target='_blank'> <img src={GerardoLosasso} alt="Gerardo Losasso" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.7s' }}>
-                    <a href='https://enamoradadelmuro.myshopify.com/' target='_blank'> <img src={EnamoradaDelMuro} alt="Enamorada del Muro" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.8s' }}>
-                    <a href='https://www.conexiogroup.com/' target='_blank'> <img src={Conexio} alt="Conexio" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '.9s' }}>
-                    <a href='https://bydanygarcia.vercel.app/' target='_blank'>  <img src={ByDanyGarcia} alt="by Dany Garcia" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '1s' }}>
-                    <a href='https://archontech.com/' target='_blank'> <img src={ArchonTechStrategies} alt="Archon Tech Strategies" className="clients__logo" /></a>
-                </div>
-                <div className="clients__logo-wrapper" style={{ animationDelay: '1.1s' }}>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.1s' }}>
                     <a href='https://angelita.vercel.app/' target='_blank'> <img src={Angelita} alt="Angelita" className="clients__logo" /></a>
                 </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.2s' }}>
+                    <a href='https://archontech.com/' target='_blank'> <img src={ArchonTechStrategies} alt="Archon Tech Strategies" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.3s' }}>
+                    <a href='https://bydanygarcia.vercel.app/' target='_blank'>  <img src={ByDanyGarcia} alt="by Dany Garcia" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.4s' }}>
+                    <a href='https://www.conexiogroup.com/' target='_blank'> <img src={Conexio} alt="Conexio" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.5s' }}>
+                    <a href='https://enamoradadelmuro.myshopify.com/' target='_blank'> <img src={EnamoradaDelMuro} alt="Enamorada del Muro" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.6s' }}>
+                    <a href='https://lic-florencia-bernero.vercel.app/' target='_blank'> <img src={FlorenciaBernero} alt="Lic. Florencia Bernero" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.7s' }}>
+                    <a href='' target='_blank'> <img src={GerardoLosasso} alt="Gerardo Losasso" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.8s' }}>
+                    <a href='https://interval.ar/' target='_blank'> <img src={Interval} alt="Magis Hogar" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '0.9s' }}>
+                    <a href='' target='_blank'> <img src={MagisHogar} alt="Magis Hogar" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1s' }}>
+                    <a href='https://www.sigmaconnectivity.com/' target='_blank'>  <img src={SigmaConn} alt="Sigma Connectivity" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1.1s' }}>
+                    <a href='https://www.sigma.se/sv/contact/sigma-connectivity-engineering/' target='_blank'>   <img src={SigmaConnE} alt="Sigma Connectivity Engineering" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1.2s' }}>
+                    <a href='https://www.selessux.com/twigoh' target='_blank'> <img src={Twigoh} alt="Twigoh" className="clients__logo" /></a>
+                </div>
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1.3s' }}>
+                    <a href='https://www.volvocars.com/se/' target='_blank'><img src={VolvoCars} alt="Volvo Cars" className="clients__logo" /></a>
+                </div>
+
             </div>
         </div>
     )

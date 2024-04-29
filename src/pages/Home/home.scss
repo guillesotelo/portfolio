@@ -11,7 +11,7 @@
     &__text {
         text-align: center;
         animation: fade 1s ease-in forwards;
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 
     &__title {
@@ -31,6 +31,9 @@
 
     &__copyright {
         margin-top: 10rem;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
 }
 

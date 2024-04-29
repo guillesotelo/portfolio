@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Button from '../Button/Button'
+import { TAG_COLORS } from '../../constants/app'
 
 type Props = {
   title: string
@@ -13,6 +14,7 @@ type Props = {
   setHover: (s: string) => void
   delay?: string
   img?: string
+  tags?: string[]
 }
 
 export default function ExperienceCard(props: Props) {
@@ -43,7 +45,8 @@ export default function ExperienceCard(props: Props) {
     hover,
     setHover,
     delay,
-    img
+    img,
+    tags
   } = props
 
   const goToRepo = () => {
@@ -58,6 +61,10 @@ export default function ExperienceCard(props: Props) {
     anchor.target = '_blank'
     anchor.href = project || ''
     anchor.click()
+  }
+
+  const parseTagColor = (tag: string) => {
+
   }
 
   return (
@@ -77,6 +84,11 @@ export default function ExperienceCard(props: Props) {
         <div className="experience-card__text">
           <h2 className="experience-card__title">{title}</h2>
           <h3 className="experience-card__subtitle">{subtitle}</h3>
+          {tags && tags.length &&
+            <div className='experience-card__tags'>
+              {tags?.map((tag, i) => <p className='experience-card__tag' style={{ backgroundColor: TAG_COLORS[tag] }} key={i}>{tag}</p>)}
+            </div>
+          }
           <p className="experience-card__description">{description}</p>
         </div>
         {cover ? <img src={cover} alt="Experience Image" className="experience-card__image" /> : ''}

@@ -46,6 +46,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='0s'
+          tags={['Tooling', 'API', 'Desktop']}
         />
         <ExperienceCard
           title='CV Maker'
@@ -58,6 +59,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.1s'
+          tags={['Platform', 'Desktop']}
         />
         <ExperienceCard
           title='Angelita'
@@ -70,6 +72,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.2s'
+          tags={['Landing', 'Platform', 'Desktop']}
         />
         <ExperienceCard
           title='CtrlShift'
@@ -82,6 +85,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.3s'
+          tags={['Tooling', 'Platform', 'Mobile']}
         />
         <ExperienceCard
           title='by Dany Garcia'
@@ -94,6 +98,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.4s'
+          tags={['Landing', 'Blog', 'Desktop', 'Mobile']}
         />
         <ExperienceCard
           title='CSA360'
@@ -107,6 +112,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.5s'
+          tags={['Platform', 'API', 'Desktop', 'Mobile']}
         />
         <ExperienceCard
           title='DeeJS'
@@ -120,6 +126,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.6s'
+          tags={['Tooling', 'Desktop', 'Mobile', 'Open Source']}
         />
         <ExperienceCard
           title='Code Compiler'
@@ -132,6 +139,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.7s'
+          tags={['Tooling', 'Desktop']}
         />
         <ExperienceCard
           title='ML Self-Driving'
@@ -144,6 +152,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.8s'
+          tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
           title='HTML to MD Converter'
@@ -157,6 +166,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='.9s'
+          tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
           title='Image & Video Compressor'
@@ -170,8 +180,9 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1s'
+          tags={['Tooling', 'Open Source']}
         />
-          <ExperienceCard
+        <ExperienceCard
           title='Confluence Dark Mode (Chrome Extension)'
           subtitle=''
           description="This Chrome extension applies dark mode styles to Confluence pages, making it easier to view Confluence content in low-light environments or for users who prefer dark themes."
@@ -183,6 +194,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.1s'
+          tags={['Tooling']}
         />
         <ExperienceCard
           title='E.A.S.Y Notes'
@@ -196,6 +208,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.2s'
+          tags={['Tooling', 'Case Study', 'Mobile']}
         />
         <ExperienceCard
           title='Flying Game'
@@ -208,6 +221,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.3s'
+          tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
           title='SQLite Search Engine'
@@ -221,6 +235,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.4s'
+          tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
           title='Space Punks'
@@ -233,6 +248,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.5s'
+          tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
           title='Magis Hogar Home'
@@ -245,6 +261,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.6s'
+          tags={['Landing', 'Desktop']}
         />
         <ExperienceCard
           title='Canvas Shooting'
@@ -258,6 +275,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.7s'
+          tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
           title='Pytorch Training'
@@ -271,6 +289,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.8s'
+          tags={['Case Study']}
         />
         <ExperienceCard
           title='Boxy'
@@ -284,6 +303,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.9s'
+          tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
           title='Schedy'
@@ -296,6 +316,7 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='2s'
+          tags={['Tooling', 'Desktop', 'Mobile']}
         />
       </div>
       <Button
@@ -303,7 +324,7 @@ export default function () {
         handleClick={goToGitHub}
         bgColor='transparent'
         textColor='#c1b7e0'
-        style={{ marginTop: '4rem'}}
+        style={{ marginTop: '4rem', transform: 'scale(1.2)' }}
       />
       <p className="home__copyright">Guillermo Sotelo © 2024</p>
     </div>
