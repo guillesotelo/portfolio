@@ -27,12 +27,12 @@ export default function About() {
           Join me on this journey through the ever-evolving world of bits and bytes. Together, we'll uncover the secrets of software and make technology work its magic for us.
         </p> */}
         <p className="about__text">
-          Thanks for being a part of this geeky expedition. Let's <a  style={{ cursor: 'pointer' }} onClick={() => history.push('/contact')}>connect & collaborate!</a>
+          Thanks for being a part of this geeky expedition. Let's <a style={{ cursor: 'pointer' }} onClick={() => history.push('/contact')}>connect & collaborate!</a>
         </p>
       </div>
       {!isMobile ?
         <div className="about__col">
-          <img src={Profile} alt="Linkedin" className="about__image" />
+          <img src={Profile} style={{ margin: '1rem' }}  alt="Linkedin" className="about__image" />
         </div>
         : ''}
     </div>
