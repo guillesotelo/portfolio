@@ -22,7 +22,7 @@ export default function Header() {
         }}
       />
       <Button
-        label='Clients'
+        label='Clients & Projects'
         handleClick={() => history.push('/clients')}
         bgColor='transparent'
         textColor='#c1b7e0'
