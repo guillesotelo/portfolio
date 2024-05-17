@@ -11,6 +11,7 @@ import SqliteSearch from '../../assets/images/sqlitesearch.png'
 import CanvasShooting from '../../assets/images/canvasshooting.png'
 import PyTorch from '../../assets/images/pytorch.png'
 import Boxy from '../../assets/images/boxy.png'
+import LightsOff from '../../assets/images/lights-off.png'
 import Button from '../../components/Button/Button'
 
 export default function () {
@@ -204,6 +205,7 @@ export default function () {
           iframe='https://chromewebstore.google.com/detail/lights-off/jffecccjlbhafheboebjabkefbnelodg'
           repo='https://github.com/guillesotelo/lights-off'
           project='https://chromewebstore.google.com/detail/lights-off/jffecccjlbhafheboebjabkefbnelodg'
+          img={LightsOff}
           hover={hover}
           setHover={setHover}
           delay='1.2s'
