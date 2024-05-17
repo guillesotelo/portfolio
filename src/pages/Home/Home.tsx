@@ -187,13 +187,26 @@ export default function () {
           subtitle=''
           description="This Chrome extension applies dark mode styles to Confluence pages, making it easier to view Confluence content in low-light environments or for users who prefer dark themes."
           cover=''
-          iframe='https://github.com/guillesotelo/confluence-dark-mode'
+          iframe='https://chromewebstore.google.com/detail/confluence-dark-mode/pmlhljddkiagfphfibmdpkppbgebffmm'
           repo='https://github.com/guillesotelo/confluence-dark-mode'
           project='https://chromewebstore.google.com/detail/confluence-dark-mode/pmlhljddkiagfphfibmdpkppbgebffmm'
           img={ConfluenceDark}
           hover={hover}
           setHover={setHover}
           delay='1.1s'
+          tags={['Tooling']}
+        />
+        <ExperienceCard
+          title='Lights Off (Chrome Extension)'
+          subtitle=''
+          description="Inspired by Confluence Dark Mode results, this extension brings darkness to the entire web."
+          cover=''
+          iframe='https://chromewebstore.google.com/detail/lights-off/jffecccjlbhafheboebjabkefbnelodg'
+          repo='https://github.com/guillesotelo/lights-off'
+          project='https://chromewebstore.google.com/detail/lights-off/jffecccjlbhafheboebjabkefbnelodg'
+          hover={hover}
+          setHover={setHover}
+          delay='1.2s'
           tags={['Tooling']}
         />
         <ExperienceCard
@@ -207,7 +220,7 @@ export default function () {
           img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.3s'
           tags={['Tooling', 'Case Study', 'Mobile']}
         />
         <ExperienceCard
@@ -220,7 +233,7 @@ export default function () {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
+          delay='1.4s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -234,7 +247,7 @@ export default function () {
           img={SqliteSearch}
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -247,7 +260,7 @@ export default function () {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.6s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -260,7 +273,7 @@ export default function () {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.6s'
+          delay='1.7s'
           tags={['Landing', 'Desktop']}
         />
         <ExperienceCard
@@ -274,7 +287,7 @@ export default function () {
           img={CanvasShooting}
           hover={hover}
           setHover={setHover}
-          delay='1.7s'
+          delay='1.8s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -288,7 +301,7 @@ export default function () {
           img={PyTorch}
           hover={hover}
           setHover={setHover}
-          delay='1.8s'
+          delay='1.9s'
           tags={['Case Study']}
         />
         <ExperienceCard
@@ -302,7 +315,7 @@ export default function () {
           img={Boxy}
           hover={hover}
           setHover={setHover}
-          delay='1.9s'
+          delay='2s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -312,10 +325,10 @@ export default function () {
           cover=''
           iframe='https://schedy.vercel.app/'
           repo='https://github.com/guillesotelo/schedy'
-          project='https://schedy.vercel.app/'
+          project=''
           hover={hover}
           setHover={setHover}
-          delay='2s'
+          delay='2.1s'
           tags={['Tooling', 'Desktop', 'Mobile']}
         />
       </div>
