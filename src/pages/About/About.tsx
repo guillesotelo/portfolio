@@ -21,7 +21,7 @@ export default function About() {
           When I'm not diving into the world of ones and zeros, you can find me in my natural habitat spending some family time, investigating new technologies or designing and building furniture for my home that may not really be necessary.
         </p>
         <p className="about__text">
-          I believe in the power of technology to make our lives better, and I'm here to share my digital adventures with you. From front-end wizardry to back-end sorcery, I'm always up for a new challenge and a good laugh along the way.
+        I'm also the author of <a href='https://refactorednews.com' target='_blank'>Refactored</a>, where I share my love for tech and digital adventures with you. From front-end wizardry to back-end sorcery, I'm always up for a new challenge and a good laugh along the way.
         </p>
         {/* <p className="about__text">
           Join me on this journey through the ever-evolving world of bits and bytes. Together, we'll uncover the secrets of software and make technology work its magic for us.

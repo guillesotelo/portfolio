@@ -63,6 +63,18 @@ export default function () {
           tags={['Platform', 'Desktop']}
         />
         <ExperienceCard
+          title='Refactored.'
+          subtitle='The Shortest Tech Newsletter'
+          description="Tech and Science news in a couple of minutes, in a single landing scroll or right into your inbox. For free!"
+          cover=''
+          iframe='https://refactorednews.com/'
+          project='https://refactorednews.com/'
+          hover={hover}
+          setHover={setHover}
+          delay='.2s'
+          tags={['Landing', 'Blog']}
+        />
+        <ExperienceCard
           title='Angelita'
           subtitle='Angela Sanguino'
           description="Landing and web app for psichology consulting. It has a complete booking platform with payments connected through Stripe and mailing campaigns."
@@ -72,7 +84,7 @@ export default function () {
           project='https://angelita.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.2s'
+          delay='.3s'
           tags={['Landing', 'Platform', 'Desktop']}
         />
         <ExperienceCard
@@ -85,7 +97,7 @@ export default function () {
           project='https://ctrlshift-app.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.3s'
+          delay='.4s'
           tags={['Tooling', 'Platform', 'Mobile']}
         />
         <ExperienceCard
@@ -98,7 +110,7 @@ export default function () {
           project='https://www.bydanygarcia.com/'
           hover={hover}
           setHover={setHover}
-          delay='.4s'
+          delay='.5s'
           tags={['Landing', 'Blog', 'Desktop', 'Mobile']}
         />
         <ExperienceCard
@@ -112,7 +124,7 @@ export default function () {
           img={Csa360}
           hover={hover}
           setHover={setHover}
-          delay='.5s'
+          delay='.6s'
           tags={['Platform', 'API', 'Desktop', 'Mobile']}
         />
         <ExperienceCard
@@ -126,7 +138,7 @@ export default function () {
           img={DeeJS}
           hover={hover}
           setHover={setHover}
-          delay='.6s'
+          delay='.7s'
           tags={['Tooling', 'Desktop', 'Mobile', 'Open Source']}
         />
         <ExperienceCard
@@ -139,7 +151,7 @@ export default function () {
           project='https://code-compiler-v2.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.7s'
+          delay='.8s'
           tags={['Tooling', 'Desktop']}
         />
         <ExperienceCard
@@ -152,7 +164,7 @@ export default function () {
           project='https://ml-self-driving.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.8s'
+          delay='.9s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -166,7 +178,7 @@ export default function () {
           img={HtmlMdConverter}
           hover={hover}
           setHover={setHover}
-          delay='.9s'
+          delay='1s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -180,7 +192,7 @@ export default function () {
           img={ImageCompressor}
           hover={hover}
           setHover={setHover}
-          delay='1s'
+          delay='1.1s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -194,7 +206,7 @@ export default function () {
           img={ConfluenceDark}
           hover={hover}
           setHover={setHover}
-          delay='1.1s'
+          delay='1.2s'
           tags={['Tooling']}
         />
         <ExperienceCard
@@ -208,7 +220,7 @@ export default function () {
           img={LightsOff}
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.3s'
           tags={['Tooling']}
         />
         <ExperienceCard
@@ -222,7 +234,7 @@ export default function () {
           img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
+          delay='1.4s'
           tags={['Tooling', 'Case Study', 'Mobile']}
         />
         <ExperienceCard
@@ -235,7 +247,7 @@ export default function () {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -249,7 +261,7 @@ export default function () {
           img={SqliteSearch}
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.6s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -262,7 +274,7 @@ export default function () {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.6s'
+          delay='1.7s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -275,7 +287,7 @@ export default function () {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.7s'
+          delay='1.8s'
           tags={['Landing', 'Desktop']}
         />
         <ExperienceCard
@@ -289,7 +301,7 @@ export default function () {
           img={CanvasShooting}
           hover={hover}
           setHover={setHover}
-          delay='1.8s'
+          delay='1.9s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -303,7 +315,7 @@ export default function () {
           img={PyTorch}
           hover={hover}
           setHover={setHover}
-          delay='1.9s'
+          delay='2s'
           tags={['Case Study']}
         />
         <ExperienceCard
@@ -317,7 +329,7 @@ export default function () {
           img={Boxy}
           hover={hover}
           setHover={setHover}
-          delay='2s'
+          delay='2.1s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -330,7 +342,7 @@ export default function () {
           project=''
           hover={hover}
           setHover={setHover}
-          delay='2.1s'
+          delay='2.2s'
           tags={['Tooling', 'Desktop', 'Mobile']}
         />
       </div>
