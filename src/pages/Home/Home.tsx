@@ -6,6 +6,7 @@ import HtmlMdConverter from '../../assets/images/confluence.png'
 import DownDetector from '../../assets/images/downdetector.png'
 import ImageCompressor from '../../assets/images/iamgecompressor.png'
 import ConfluenceDark from '../../assets/images/confluencedark.png'
+import Page2PDF from '../../assets/images/page2pdf.png'
 import EasyBaby from '../../assets/images/easybaby.jpg'
 import SqliteSearch from '../../assets/images/sqlitesearch.png'
 import CanvasShooting from '../../assets/images/canvasshooting.png'
@@ -207,7 +208,21 @@ export default function () {
           hover={hover}
           setHover={setHover}
           delay='1.2s'
-          tags={['Tooling']}
+          tags={['Tooling', 'Open Source']}
+        />
+        <ExperienceCard
+          title='Page2PDF (Chrome Extension)'
+          subtitle=''
+          description="A Chrome extension to easily convert any webpage to PDF. Uses html2canvas & jsPDF to render and generate PDF pages."
+          cover=''
+          iframe='https://chromewebstore.google.com/detail/page2pdf/kmaggjfigkmoapfhiomondfknglakioc'
+          repo='https://github.com/guillesotelo/page2pdf'
+          project='https://chromewebstore.google.com/detail/page2pdf/kmaggjfigkmoapfhiomondfknglakioc'
+          img={Page2PDF}
+          hover={hover}
+          setHover={setHover}
+          delay='1.3s'
+          tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
           title='Lights Off (Chrome Extension)'
@@ -220,8 +235,8 @@ export default function () {
           img={LightsOff}
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
-          tags={['Tooling']}
+          delay='1.4s'
+          tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
           title='E.A.S.Y Notes'
@@ -234,7 +249,7 @@ export default function () {
           img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
           tags={['Tooling', 'Case Study', 'Mobile']}
         />
         <ExperienceCard
@@ -247,7 +262,7 @@ export default function () {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.6s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -261,7 +276,7 @@ export default function () {
           img={SqliteSearch}
           hover={hover}
           setHover={setHover}
-          delay='1.6s'
+          delay='1.7s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -274,7 +289,7 @@ export default function () {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.7s'
+          delay='1.8s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -287,7 +302,7 @@ export default function () {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.8s'
+          delay='1.9s'
           tags={['Landing', 'Desktop']}
         />
         <ExperienceCard
@@ -301,7 +316,7 @@ export default function () {
           img={CanvasShooting}
           hover={hover}
           setHover={setHover}
-          delay='1.9s'
+          delay='2s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -315,7 +330,7 @@ export default function () {
           img={PyTorch}
           hover={hover}
           setHover={setHover}
-          delay='2s'
+          delay='2.1s'
           tags={['Case Study']}
         />
         <ExperienceCard
@@ -329,7 +344,7 @@ export default function () {
           img={Boxy}
           hover={hover}
           setHover={setHover}
-          delay='2.1s'
+          delay='2.2s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -342,7 +357,7 @@ export default function () {
           project=''
           hover={hover}
           setHover={setHover}
-          delay='2.2s'
+          delay='2.3s'
           tags={['Tooling', 'Desktop', 'Mobile']}
         />
       </div>
