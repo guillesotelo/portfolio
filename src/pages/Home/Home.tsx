@@ -115,6 +115,19 @@ export default function () {
           tags={['Landing', 'Blog', 'Desktop', 'Mobile']}
         />
         <ExperienceCard
+          title='YMG Consultancy'
+          subtitle='Yanet Gallina'
+          description="Driving culinary innovation through strategic consultancy and powerful networks."
+          cover=''
+          iframe='https://ymg.vercel.app/'
+          repo='https://github.com/guillesotelo/ymg'
+          project='https://ymg.vercel.app/'
+          hover={hover}
+          setHover={setHover}
+          delay='.6s'
+          tags={['Landing', 'Desktop', 'Mobile']}
+        />
+        <ExperienceCard
           title='CSA360'
           subtitle='Archon Tech Strategies'
           description="All-In-One physical security operations management software that helps security teams enhance management of their operations. Seamlessly link your field activities and admin back office, automate tasks, and save money with this single platform solution."
@@ -125,7 +138,7 @@ export default function () {
           img={Csa360}
           hover={hover}
           setHover={setHover}
-          delay='.6s'
+          delay='.7s'
           tags={['Platform', 'API', 'Desktop', 'Mobile']}
         />
         <ExperienceCard
@@ -139,7 +152,7 @@ export default function () {
           img={DeeJS}
           hover={hover}
           setHover={setHover}
-          delay='.7s'
+          delay='.8s'
           tags={['Tooling', 'Desktop', 'Mobile', 'Open Source']}
         />
         <ExperienceCard
@@ -152,7 +165,7 @@ export default function () {
           project='https://code-compiler-v2.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.8s'
+          delay='.9s'
           tags={['Tooling', 'Desktop']}
         />
         <ExperienceCard
@@ -165,7 +178,7 @@ export default function () {
           project='https://ml-self-driving.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='.9s'
+          delay='1s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -179,7 +192,7 @@ export default function () {
           img={HtmlMdConverter}
           hover={hover}
           setHover={setHover}
-          delay='1s'
+          delay='1.1s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -193,7 +206,7 @@ export default function () {
           img={ImageCompressor}
           hover={hover}
           setHover={setHover}
-          delay='1.1s'
+          delay='1.2s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -207,7 +220,7 @@ export default function () {
           img={ConfluenceDark}
           hover={hover}
           setHover={setHover}
-          delay='1.2s'
+          delay='1.3s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -221,7 +234,7 @@ export default function () {
           img={Page2PDF}
           hover={hover}
           setHover={setHover}
-          delay='1.3s'
+          delay='1.4s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -235,7 +248,7 @@ export default function () {
           img={LightsOff}
           hover={hover}
           setHover={setHover}
-          delay='1.4s'
+          delay='1.5s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -249,7 +262,7 @@ export default function () {
           img={EasyBaby}
           hover={hover}
           setHover={setHover}
-          delay='1.5s'
+          delay='1.6s'
           tags={['Tooling', 'Case Study', 'Mobile']}
         />
         <ExperienceCard
@@ -262,7 +275,7 @@ export default function () {
           project='https://flying-game.vercel.app'
           hover={hover}
           setHover={setHover}
-          delay='1.6s'
+          delay='1.7s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -276,7 +289,7 @@ export default function () {
           img={SqliteSearch}
           hover={hover}
           setHover={setHover}
-          delay='1.7s'
+          delay='1.8s'
           tags={['Tooling', 'Open Source']}
         />
         <ExperienceCard
@@ -289,7 +302,7 @@ export default function () {
           project='https://canvas-space-punks.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.8s'
+          delay='1.9s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -302,7 +315,7 @@ export default function () {
           project='https://magishogar-public.vercel.app/'
           hover={hover}
           setHover={setHover}
-          delay='1.9s'
+          delay='2s'
           tags={['Landing', 'Desktop']}
         />
         <ExperienceCard
@@ -316,7 +329,7 @@ export default function () {
           img={CanvasShooting}
           hover={hover}
           setHover={setHover}
-          delay='2s'
+          delay='2.1s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -330,7 +343,7 @@ export default function () {
           img={PyTorch}
           hover={hover}
           setHover={setHover}
-          delay='2.1s'
+          delay='2.2s'
           tags={['Case Study']}
         />
         <ExperienceCard
@@ -344,7 +357,7 @@ export default function () {
           img={Boxy}
           hover={hover}
           setHover={setHover}
-          delay='2.2s'
+          delay='2.3s'
           tags={['Gaming', 'Case Study', 'Desktop']}
         />
         <ExperienceCard
@@ -357,7 +370,7 @@ export default function () {
           project=''
           hover={hover}
           setHover={setHover}
-          delay='2.3s'
+          delay='2.4s'
           tags={['Tooling', 'Desktop', 'Mobile']}
         />
       </div>
