@@ -12,6 +12,7 @@ import Angelita from '../../assets/logos/angelita.png'
 import Conexio from '../../assets/logos/conexio.png'
 import Interval from '../../assets/logos/interval.svg'
 import FlorenciaBernero from '../../assets/logos/florencia_bernero.png'
+import YMG from '../../assets/logos/ymg.png'
 
 export default function Clients() {
     return (
@@ -61,7 +62,9 @@ export default function Clients() {
                 <div className="clients__logo-wrapper" style={{ animationDelay: '1.3s' }}>
                     <a href='https://www.volvocars.com/se/' target='_blank'><img src={VolvoCars} alt="Volvo Cars" className="clients__logo" /></a>
                 </div>
-
+                <div className="clients__logo-wrapper" style={{ animationDelay: '1.4s' }}>
+                    <a href='https://ymg.vercel.app/' target='_blank'><img src={YMG} alt="YMG Consultancy" className="clients__logo" /></a>
+                </div>
             </div>
         </div>
     )
