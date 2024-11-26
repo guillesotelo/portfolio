@@ -15,10 +15,11 @@ import FlorenciaBernero from '../../assets/logos/florencia_bernero.png'
 import YMG from '../../assets/logos/ymg.png'
 
 export default function Clients() {
+    const isMobile = window.innerWidth <= 640
     return (
         <div className="clients__container">
             <div className="home__text">
-                <p className="home__intro" style={{ margin: '2rem 0 0 0' }}>
+                <p className="home__intro" style={{ margin: isMobile ? '2rem 1rem 0 0' : '2rem 0 0' }}>
                     Here are some of the projects and clients I had the oportunity to work with:
                 </p>
             </div>

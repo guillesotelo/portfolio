@@ -18,16 +18,16 @@ type Props = {
 }
 
 export default function ExperienceCard(props: Props) {
-  const isMobile = window.innerWidth < 900
+  const isMobile = window.innerWidth <= 640
   const cardRef = useRef(null)
   const [iframeStyles, setIframeStyles] = useState<React.CSSProperties>({})
 
   useEffect(() => {
     if (cardRef && cardRef.current) {
       const { right } = (cardRef.current as HTMLDivElement).getBoundingClientRect()
-      if (right && window.innerWidth - right < 500) {
+      if (right && window.innerWidth - right < 640) {
         setIframeStyles({
-          left: '-30vw',
+          left: '0',
           width: '32vw',
         })
       }
