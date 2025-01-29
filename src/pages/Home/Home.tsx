@@ -31,9 +31,11 @@ export default function () {
       <div className="home__text">
         <h1 className="home__title">Welcome to my tech journey!</h1>
         <p className="home__intro">
-          Hey there! I'm Guillermo, a software developer on a mission to make tech awesome.
+          Hi, I'm Guillermo—a software developer turning ideas into impactful digital experiences.
           <br />
-          Each card below tells a unique story of my digital adventures.
+          Each card below is a glimpse into my world of innovation, where technology meets creativity. 
+          <br />
+          Dive in and explore!
         </p>
       </div>
       <div className="home__experiences">
