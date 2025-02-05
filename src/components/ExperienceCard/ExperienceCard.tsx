@@ -25,9 +25,9 @@ export default function ExperienceCard(props: Props) {
   useEffect(() => {
     if (cardRef && cardRef.current) {
       const { right } = (cardRef.current as HTMLDivElement).getBoundingClientRect()
-      if (right && window.innerWidth - right < 640) {
+      if (!isMobile && right && window.innerWidth - right < 640) {
         setIframeStyles({
-          left: '0',
+          left: '-36rem',
           width: '32vw',
         })
       }
