@@ -123,9 +123,9 @@ export default function () {
           subtitle='Daniela Garcia'
           description="Creative, Aware, Inspire, is the slogan for this fantastic blog written by Daniela. It represents a landing page for the artist, her blog and a platform for her unique business called 'Bespoken'."
           cover=''
-          iframe='https://www.bydanygarcia.com/'
+          iframe='https://bydanygarcia.com/'
           repo='https://github.com/guillesotelo/bydanygarcia'
-          project='https://www.bydanygarcia.com/'
+          project='https://bydanygarcia.com/'
           hover={hover}
           setHover={setHover}
           delay='.6s'
@@ -136,9 +136,9 @@ export default function () {
           subtitle='Lic. M. Elisa Fontana'
           description="Audiologic clinic online presentation with booking system for patients, mailer automation and patient and studies data handling for professionals."
           cover=''
-          iframe='https://www.audiologia-mef.vercel.app/'
+          iframe='https://audiologia-mef.vercel.app/'
           repo='https://github.com/guillesotelo/audiologia.mef'
-          project='https://www.audiologia-mef.vercel.app/'
+          project='https://audiologia-mef.vercel.app/'
           hover={hover}
           setHover={setHover}
           delay='.7s'
