@@ -96,10 +96,12 @@ export default function ExperienceCard(props: Props) {
           {project ? <Button
             label='Visit project'
             handleClick={goToApp}
+            style={{ color: '#000' }}
           /> : ''}
           {repo ? <Button
             label='Go to repo'
             handleClick={goToRepo}
+            style={{ color: '#000' }}
           /> : ''}
         </div>
       </div>
